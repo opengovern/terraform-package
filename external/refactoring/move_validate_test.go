@@ -12,13 +12,13 @@ import (
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	"github.com/zclconf/go-cty/cty/gocty"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/configs/configload"
-	"hashicorp/terraform/external/initwd"
-	"hashicorp/terraform/external/instances"
-	"hashicorp/terraform/external/registry"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs/configload"
+	"github.com/kaytu-io/terraform-package/external/initwd"
+	"github.com/kaytu-io/terraform-package/external/instances"
+	"github.com/kaytu-io/terraform-package/external/registry"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 func TestValidateMoves(t *testing.T) {

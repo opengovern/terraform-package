@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"log"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/dag"
-	"hashicorp/terraform/external/logging"
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/dag"
+	"github.com/kaytu-io/terraform-package/external/logging"
+	"github.com/kaytu-io/terraform-package/external/states"
 )
 
 // ApplyMoves modifies in-place the given state object so that any existing

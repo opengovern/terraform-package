@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/e2e"
+	"github.com/kaytu-io/terraform-package/external/e2e"
 )
 
 // TestProvisionerPlugin is a test that terraform can execute a 3rd party
@@ -37,7 +37,7 @@ func TestProvisionerPlugin(t *testing.T) {
 	// to actually run it. Here will build the local-exec provisioner into a
 	// binary called test-provisioner
 	provisionerExePrefix := filepath.Join(tf.WorkDir(), "terraform-provisioner-test_")
-	provisionerExe := e2e.GoBuild("hashicorp/terraform/external/provisioner-local-exec/main", provisionerExePrefix)
+	provisionerExe := e2e.GoBuild("github.com/kaytu-io/terraform-package/external/provisioner-local-exec/main", provisionerExePrefix)
 
 	// provisioners must use the old binary name format, so rename this binary
 	newExe := filepath.Join(tf.WorkDir(), "terraform-provisioner-test")

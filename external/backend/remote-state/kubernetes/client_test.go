@@ -6,9 +6,9 @@ package kubernetes
 import (
 	"testing"
 
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/states/remote"
-	"hashicorp/terraform/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/states/remote"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
 )
 
 func TestRemoteClient_impl(t *testing.T) {

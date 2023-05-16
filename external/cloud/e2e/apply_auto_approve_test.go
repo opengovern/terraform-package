@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	tfe "github.com/hashicorp/go-tfe"
-	tfversion "hashicorp/terraform/version"
+	tfversion "github.com/kaytu-io/terraform-package/version"
 )
 
 func Test_terraform_apply_autoApprove(t *testing.T) {

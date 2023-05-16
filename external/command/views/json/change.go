@@ -6,7 +6,7 @@ package json
 import (
 	"fmt"
 
-	"hashicorp/terraform/external/plans"
+	"github.com/kaytu-io/terraform-package/external/plans"
 )
 
 func NewResourceInstanceChange(change *plans.ResourceInstanceChangeSrc) *ResourceInstanceChange {

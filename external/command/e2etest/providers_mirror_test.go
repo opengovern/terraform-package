@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"hashicorp/terraform/external/e2e"
+	"github.com/kaytu-io/terraform-package/external/e2e"
 )
 
 // The tests in this file are for the "terraform providers mirror" command,

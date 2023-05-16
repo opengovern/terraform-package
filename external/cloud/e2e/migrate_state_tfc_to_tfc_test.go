@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	tfe "github.com/hashicorp/go-tfe"
-	tfversion "hashicorp/terraform/version"
+	tfversion "github.com/kaytu-io/terraform-package/version"
 )
 
 func Test_migrate_tfc_to_tfc_single_workspace(t *testing.T) {

@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/moduletest"
-	"hashicorp/terraform/external/terminal"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/moduletest"
+	"github.com/kaytu-io/terraform-package/external/terminal"
 )
 
 func TestTest(t *testing.T) {

@@ -7,10 +7,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/command/format"
-	viewsjson "hashicorp/terraform/external/command/views/json"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/command/format"
+	viewsjson "github.com/kaytu-io/terraform-package/external/command/views/json"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // The Validate is used for the validate command.

@@ -8,9 +8,9 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/providers"
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/providers"
+	"github.com/kaytu-io/terraform-package/external/states"
 	"github.com/zclconf/go-cty/cty"
 )
 

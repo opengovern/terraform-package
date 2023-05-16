@@ -7,12 +7,12 @@ import (
 	"context"
 	"fmt"
 
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/configs/hcl2shim"
-	"hashicorp/terraform/external/legacy/terraform"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
+	"github.com/kaytu-io/terraform-package/external/legacy/terraform"
 	ctyconvert "github.com/zclconf/go-cty/cty/convert"
 )
 

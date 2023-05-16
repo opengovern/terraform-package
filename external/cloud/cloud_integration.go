@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-tfe"
-	"hashicorp/terraform/external/backend"
+	"github.com/kaytu-io/terraform-package/external/backend"
 	"github.com/mitchellh/cli"
 )
 

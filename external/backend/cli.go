@@ -7,8 +7,8 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
 
-	"hashicorp/terraform/external/terminal"
-	"hashicorp/terraform/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/terminal"
+	"github.com/kaytu-io/terraform-package/external/terraform"
 )
 
 // CLI is an optional interface that can be implemented to be initialized

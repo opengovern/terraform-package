@@ -6,9 +6,9 @@ package terraform
 import (
 	"log"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/dag"
-	"hashicorp/terraform/external/plans"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/dag"
+	"github.com/kaytu-io/terraform-package/external/plans"
 )
 
 // GraphNodeDestroyer must be implemented by nodes that destroy resources.

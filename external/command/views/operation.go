@@ -8,17 +8,17 @@ import (
 	"fmt"
 	"strings"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/command/format"
-	"hashicorp/terraform/external/command/jsonformat"
-	"hashicorp/terraform/external/command/jsonplan"
-	"hashicorp/terraform/external/command/jsonprovider"
-	"hashicorp/terraform/external/command/views/json"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/states/statefile"
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/command/format"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat"
+	"github.com/kaytu-io/terraform-package/external/command/jsonplan"
+	"github.com/kaytu-io/terraform-package/external/command/jsonprovider"
+	"github.com/kaytu-io/terraform-package/external/command/views/json"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/states/statefile"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 type Operation interface {

@@ -4,7 +4,7 @@
 package arguments
 
 import (
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // Plan represents the command-line arguments for the plan command.

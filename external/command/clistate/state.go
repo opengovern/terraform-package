@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	"hashicorp/terraform/external/command/views"
-	"hashicorp/terraform/external/helper/slowmessage"
-	"hashicorp/terraform/external/states/statemgr"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/command/views"
+	"github.com/kaytu-io/terraform-package/external/helper/slowmessage"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 const (

@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"strings"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/command/clistate"
-	"hashicorp/terraform/external/command/views"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/command/clistate"
+	"github.com/kaytu-io/terraform-package/external/command/views"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // UntaintCommand is a cli.Command implementation that manually untaints

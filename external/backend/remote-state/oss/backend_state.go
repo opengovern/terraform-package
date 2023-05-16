@@ -14,10 +14,10 @@ import (
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 	"github.com/aliyun/aliyun-tablestore-go-sdk/tablestore"
 
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/states/remote"
-	"hashicorp/terraform/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/states/remote"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
 )
 
 const (

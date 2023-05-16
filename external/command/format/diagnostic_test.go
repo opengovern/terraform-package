@@ -15,10 +15,10 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/function"
 
-	viewsjson "hashicorp/terraform/external/command/views/json"
-	"hashicorp/terraform/external/lang/marks"
+	viewsjson "github.com/kaytu-io/terraform-package/external/command/views/json"
+	"github.com/kaytu-io/terraform-package/external/lang/marks"
 
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 func TestDiagnostic(t *testing.T) {
@@ -655,7 +655,7 @@ func TestDiagnosticWarningsCompact(t *testing.T) {
 	}
 }
 
-// Test case via https://hashicorp/terraform/issues/21359
+// Test case via https://github.com/kaytu-io/terraform-package/issues/21359
 func TestDiagnostic_nonOverlappingHighlightContext(t *testing.T) {
 	var diags tfdiags.Diagnostics
 

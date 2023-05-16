@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"hashicorp/terraform/external/command/cliconfig"
+	"github.com/kaytu-io/terraform-package/external/command/cliconfig"
 )
 
 // globalPluginDirs returns directories that should be searched for

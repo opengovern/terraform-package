@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/dag"
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/dag"
+	"github.com/kaytu-io/terraform-package/external/states"
 )
 
 func TestOrphanResourceInstanceTransformer(t *testing.T) {

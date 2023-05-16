@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/consul/sdk/testutil"
-	"hashicorp/terraform/external/backend"
+	"github.com/kaytu-io/terraform-package/external/backend"
 )
 
 func TestBackend_impl(t *testing.T) {

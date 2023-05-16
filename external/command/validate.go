@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/command/views"
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/command/views"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // ValidateCommand is a Command implementation that validates the terraform files

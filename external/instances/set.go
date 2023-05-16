@@ -4,7 +4,7 @@
 package instances
 
 import (
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 )
 
 // Set is a set of instances, intended mainly for the return value of

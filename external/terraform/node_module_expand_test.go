@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	"github.com/hashicorp/hcl/v2/hcltest"
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/instances"
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/instances"
+	"github.com/kaytu-io/terraform-package/external/states"
 	"github.com/zclconf/go-cty/cty"
 )
 

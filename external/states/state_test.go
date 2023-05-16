@@ -11,8 +11,8 @@ import (
 	"github.com/go-test/deep"
 	"github.com/zclconf/go-cty/cty"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/lang/marks"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/lang/marks"
 )
 
 func TestState(t *testing.T) {

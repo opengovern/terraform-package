@@ -14,12 +14,12 @@ import (
 
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"hashicorp/terraform/external/command/cliconfig"
-	oauthserver "hashicorp/terraform/external/command/testdata/login-oauth-server"
-	tfeserver "hashicorp/terraform/external/command/testdata/login-tfe-server"
-	"hashicorp/terraform/external/command/webbrowser"
-	"hashicorp/terraform/external/httpclient"
-	"hashicorp/terraform/version"
+	"github.com/kaytu-io/terraform-package/external/command/cliconfig"
+	oauthserver "github.com/kaytu-io/terraform-package/external/command/testdata/login-oauth-server"
+	tfeserver "github.com/kaytu-io/terraform-package/external/command/testdata/login-tfe-server"
+	"github.com/kaytu-io/terraform-package/external/command/webbrowser"
+	"github.com/kaytu-io/terraform-package/external/httpclient"
+	"github.com/kaytu-io/terraform-package/version"
 )
 
 func TestLogin(t *testing.T) {

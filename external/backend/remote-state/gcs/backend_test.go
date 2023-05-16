@@ -15,9 +15,9 @@ import (
 
 	kms "cloud.google.com/go/kms/apiv1"
 	"cloud.google.com/go/storage"
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/httpclient"
-	"hashicorp/terraform/external/states/remote"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/httpclient"
+	"github.com/kaytu-io/terraform-package/external/states/remote"
 	"google.golang.org/api/option"
 	kmspb "google.golang.org/genproto/googleapis/cloud/kms/v1"
 )

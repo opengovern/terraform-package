@@ -15,7 +15,7 @@ import (
 	svchost "github.com/hashicorp/terraform-svchost"
 	svcauth "github.com/hashicorp/terraform-svchost/auth"
 
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 )
 
 func TestHTTPMirrorSource(t *testing.T) {

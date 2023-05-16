@@ -6,8 +6,8 @@ package providers
 import (
 	"github.com/zclconf/go-cty/cty"
 
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // Interface represents the set of methods required for a complete resource

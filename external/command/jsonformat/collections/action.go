@@ -3,7 +3,7 @@
 
 package collections
 
-import "hashicorp/terraform/external/plans"
+import "github.com/kaytu-io/terraform-package/external/plans"
 
 // CompareActions will compare current and next, and return plans.Update if they
 // are different, and current if they are the same.

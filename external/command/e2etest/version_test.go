@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/e2e"
-	"hashicorp/terraform/version"
+	"github.com/kaytu-io/terraform-package/external/e2e"
+	"github.com/kaytu-io/terraform-package/version"
 )
 
 func TestVersion(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/e2e"
+	"github.com/kaytu-io/terraform-package/external/e2e"
 )
 
 func TestInitModuleArchive(t *testing.T) {

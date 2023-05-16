@@ -10,9 +10,9 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/zclconf/go-cty/cty"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/states/statefile"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/states/statefile"
 )
 
 // TestFull is a helper for testing full state manager implementations. It

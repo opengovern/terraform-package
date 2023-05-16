@@ -14,9 +14,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/backend/local"
-	"hashicorp/terraform/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/backend/local"
+	"github.com/kaytu-io/terraform-package/external/terraform"
 	"github.com/mitchellh/cli"
 )
 

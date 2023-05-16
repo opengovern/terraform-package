@@ -11,13 +11,13 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"hashicorp/terraform/external/configs/hcl2shim"
-	"hashicorp/terraform/external/providers"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
+	"github.com/kaytu-io/terraform-package/external/providers"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 
-	mockproto "hashicorp/terraform/external/plugin6/mock_proto"
-	proto "hashicorp/terraform/external/tfplugin6"
+	mockproto "github.com/kaytu-io/terraform-package/external/plugin6/mock_proto"
+	proto "github.com/kaytu-io/terraform-package/external/tfplugin6"
 )
 
 var _ providers.Interface = (*GRPCProvider)(nil)
@@ -112,7 +112,7 @@ func TestGRPCProvider_GetSchema(t *testing.T) {
 }
 
 // Ensure that gRPC errors are returned early.
-// Reference: https://hashicorp/terraform/issues/31047
+// Reference: https://github.com/kaytu-io/terraform-package/issues/31047
 func TestGRPCProvider_GetSchema_GRPCError(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	client := mockproto.NewMockProviderClient(ctrl)
@@ -133,7 +133,7 @@ func TestGRPCProvider_GetSchema_GRPCError(t *testing.T) {
 }
 
 // Ensure that provider error diagnostics are returned early.
-// Reference: https://hashicorp/terraform/issues/31047
+// Reference: https://github.com/kaytu-io/terraform-package/issues/31047
 func TestGRPCProvider_GetSchema_ResponseErrorDiagnostic(t *testing.T) {
 	ctrl := gomock.NewController(t)
 	client := mockproto.NewMockProviderClient(ctrl)

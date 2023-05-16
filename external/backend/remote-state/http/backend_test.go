@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"hashicorp/terraform/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs"
 	"github.com/zclconf/go-cty/cty"
 
-	"hashicorp/terraform/external/backend"
+	"github.com/kaytu-io/terraform-package/external/backend"
 )
 
 func TestBackend_impl(t *testing.T) {

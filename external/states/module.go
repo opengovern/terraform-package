@@ -6,7 +6,7 @@ package states
 import (
 	"github.com/zclconf/go-cty/cty"
 
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 )
 
 // Module is a container for the states of objects within a particular module.

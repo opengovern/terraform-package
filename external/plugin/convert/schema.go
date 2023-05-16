@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"sort"
 
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/providers"
-	proto "hashicorp/terraform/external/tfplugin5"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/providers"
+	proto "github.com/kaytu-io/terraform-package/external/tfplugin5"
 )
 
 // ConfigSchemaToProto takes a *configschema.Block and converts it to a

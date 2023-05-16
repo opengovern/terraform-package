@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"log"
 
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/dag"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/dag"
 )
 
 // GraphNodeAttachResourceSchema is an interface implemented by node types

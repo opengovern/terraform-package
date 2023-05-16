@@ -11,11 +11,11 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/getproviders"
-	"hashicorp/terraform/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/getproviders"
+	"github.com/kaytu-io/terraform-package/external/terraform"
 )
 
 // Config represents the complete configuration source

@@ -4,8 +4,8 @@
 package terraform
 
 import (
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/providers"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/providers"
 	"github.com/zclconf/go-cty/cty"
 )
 

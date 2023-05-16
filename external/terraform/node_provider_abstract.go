@@ -4,11 +4,11 @@
 package terraform
 
 import (
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
 
-	"hashicorp/terraform/external/dag"
+	"github.com/kaytu-io/terraform-package/external/dag"
 )
 
 // ConcreteProviderNodeFunc is a callback type used to convert an

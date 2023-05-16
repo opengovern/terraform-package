@@ -6,7 +6,7 @@ package terraform
 import (
 	"log"
 
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/states"
 )
 
 // StateTransformer is a GraphTransformer that adds the elements of

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/dag"
+	"github.com/kaytu-io/terraform-package/external/dag"
 )
 
 func TestGraphDot(t *testing.T) {

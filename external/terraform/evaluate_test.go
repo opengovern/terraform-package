@@ -10,13 +10,13 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/zclconf/go-cty/cty"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/lang/marks"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/lang/marks"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 func TestEvaluatorGetTerraformAttr(t *testing.T) {

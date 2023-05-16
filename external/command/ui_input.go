@@ -19,7 +19,7 @@ import (
 	"unicode"
 
 	"github.com/bgentry/speakeasy"
-	"hashicorp/terraform/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/terraform"
 	"github.com/mattn/go-isatty"
 	"github.com/mitchellh/colorstring"
 )

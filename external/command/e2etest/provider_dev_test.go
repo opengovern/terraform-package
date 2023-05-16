@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/e2e"
+	"github.com/kaytu-io/terraform-package/external/e2e"
 )
 
 // TestProviderDevOverrides is a test for the special dev_overrides setting
@@ -43,7 +43,7 @@ func TestProviderDevOverrides(t *testing.T) {
 	// such as if it stops being buildable into an independent executable.
 	providerExeDir := filepath.Join(tf.WorkDir(), "pkgdir")
 	providerExePrefix := filepath.Join(providerExeDir, "terraform-provider-test_")
-	providerExe := e2e.GoBuild("hashicorp/terraform/external/provider-simple/main", providerExePrefix)
+	providerExe := e2e.GoBuild("github.com/kaytu-io/terraform-package/external/provider-simple/main", providerExePrefix)
 	t.Logf("temporary provider executable is %s", providerExe)
 
 	err := ioutil.WriteFile(filepath.Join(tf.WorkDir(), "dev.tfrc"), []byte(fmt.Sprintf(`

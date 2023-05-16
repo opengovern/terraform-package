@@ -11,11 +11,11 @@ import (
 	"log"
 
 	tfe "github.com/hashicorp/go-tfe"
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/command/jsonformat"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 func (b *Cloud) opApply(stopCtx, cancelCtx context.Context, op *backend.Operation, w *tfe.Workspace) (*tfe.Run, error) {

@@ -14,10 +14,10 @@ import (
 	"github.com/zclconf/go-cty/cty/convert"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/repl"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/repl"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // The Output view renders either one or all outputs, depending on whether or

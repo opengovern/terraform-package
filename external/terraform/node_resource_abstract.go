@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"log"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/dag"
-	"hashicorp/terraform/external/lang"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/dag"
+	"github.com/kaytu-io/terraform-package/external/lang"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // ConcreteResourceNodeFunc is a callback type used to convert an

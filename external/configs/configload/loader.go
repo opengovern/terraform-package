@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 
 	"github.com/hashicorp/terraform-svchost/disco"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/registry"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/registry"
 	"github.com/spf13/afero"
 )
 

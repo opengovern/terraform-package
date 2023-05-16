@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 
 	"github.com/hashicorp/go-multierror"
 )

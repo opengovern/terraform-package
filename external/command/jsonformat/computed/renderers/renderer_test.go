@@ -7,13 +7,13 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/command/jsonformat/computed"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/mitchellh/colorstring"
 	"github.com/zclconf/go-cty/cty"
 
-	"hashicorp/terraform/external/plans"
+	"github.com/kaytu-io/terraform-package/external/plans"
 )
 
 func TestRenderers_Human(t *testing.T) {

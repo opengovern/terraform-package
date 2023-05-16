@@ -6,11 +6,11 @@ package terraform
 import (
 	"testing"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/providers"
-	"hashicorp/terraform/external/provisioners"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/providers"
+	"github.com/kaytu-io/terraform-package/external/provisioners"
 	"github.com/zclconf/go-cty/cty"
 )
 

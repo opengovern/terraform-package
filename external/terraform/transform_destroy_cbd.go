@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"log"
 
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/dag"
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/dag"
+	"github.com/kaytu-io/terraform-package/external/states"
 )
 
 // GraphNodeDestroyerCBD must be implemented by nodes that might be

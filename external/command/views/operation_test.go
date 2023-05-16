@@ -9,14 +9,14 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/lang/globalref"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/states/statefile"
-	"hashicorp/terraform/external/terminal"
-	"hashicorp/terraform/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/lang/globalref"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/states/statefile"
+	"github.com/kaytu-io/terraform-package/external/terminal"
+	"github.com/kaytu-io/terraform-package/external/terraform"
 	"github.com/zclconf/go-cty/cty"
 )
 

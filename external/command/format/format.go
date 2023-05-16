@@ -10,7 +10,7 @@
 // structures have a consistent look and feel.
 package format
 
-import "hashicorp/terraform/external/plans"
+import "github.com/kaytu-io/terraform-package/external/plans"
 
 // DiffActionSymbol returns a string that, once passed through a
 // colorstring.Colorize, will produce a result that can be written

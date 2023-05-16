@@ -10,13 +10,13 @@ import (
 	"sort"
 	"strings"
 
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/configs/configload"
-	"hashicorp/terraform/external/plans/planfile"
-	"hashicorp/terraform/external/states/statemgr"
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs/configload"
+	"github.com/kaytu-io/terraform-package/external/plans/planfile"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

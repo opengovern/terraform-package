@@ -3,7 +3,7 @@
 
 package configs
 
-import "hashicorp/terraform/external/addrs"
+import "github.com/kaytu-io/terraform-package/external/addrs"
 
 // Container provides an interface for scoped resources.
 //

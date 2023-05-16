@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/states/statemgr"
-	"hashicorp/terraform/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/terraform"
 )
 
 func TestStateHook_impl(t *testing.T) {

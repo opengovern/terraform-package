@@ -4,7 +4,7 @@
 package pg
 
 // Create the test database: createdb terraform_backend_pg_test
-// TF_ACC=1 GO111MODULE=on go test -v -mod=vendor -timeout=2m -parallel=4 hashicorp/terraform/backend/remote-state/pg
+// TF_ACC=1 GO111MODULE=on go test -v -mod=vendor -timeout=2m -parallel=4 github.com/kaytu-io/terraform-package/backend/remote-state/pg
 
 import (
 	"database/sql"
@@ -15,10 +15,10 @@ import (
 	"testing"
 
 	"github.com/hashicorp/hcl/v2/hcldec"
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/states/remote"
-	"hashicorp/terraform/external/states/statemgr"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/states/remote"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/lib/pq"
 )
 

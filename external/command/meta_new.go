@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	"hashicorp/terraform/external/plans/planfile"
+	"github.com/kaytu-io/terraform-package/external/plans/planfile"
 )
 
 // NOTE: Temporary file until this branch is cleaned up.

@@ -19,19 +19,19 @@ import (
 	version "github.com/hashicorp/go-version"
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/logging"
-	"hashicorp/terraform/external/states/remote"
-	"hashicorp/terraform/external/states/statemgr"
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/external/tfdiags"
-	tfversion "hashicorp/terraform/version"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/logging"
+	"github.com/kaytu-io/terraform-package/external/states/remote"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	tfversion "github.com/kaytu-io/terraform-package/version"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
 	"github.com/zclconf/go-cty/cty"
 
-	backendLocal "hashicorp/terraform/external/backend/local"
+	backendLocal "github.com/kaytu-io/terraform-package/external/backend/local"
 )
 
 const (

@@ -12,9 +12,9 @@ import (
 	"runtime"
 
 	"github.com/armon/circbuf"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/provisioners"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/provisioners"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/mitchellh/go-linereader"
 	"github.com/zclconf/go-cty/cty"
 )

@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"testing"
 
-	"hashicorp/terraform/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hcltest"
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 	"github.com/zclconf/go-cty/cty"
 )
 

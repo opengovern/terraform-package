@@ -9,7 +9,7 @@ package command
 import (
 	"fmt"
 
-	"hashicorp/terraform/external/repl"
+	"github.com/kaytu-io/terraform-package/external/repl"
 	"github.com/mitchellh/cli"
 )
 

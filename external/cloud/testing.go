@@ -23,17 +23,17 @@ import (
 	"github.com/mitchellh/colorstring"
 	"github.com/zclconf/go-cty/cty"
 
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/command/jsonformat"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/httpclient"
-	"hashicorp/terraform/external/providers"
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/external/tfdiags"
-	"hashicorp/terraform/version"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/httpclient"
+	"github.com/kaytu-io/terraform-package/external/providers"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/version"
 
-	backendLocal "hashicorp/terraform/external/backend/local"
+	backendLocal "github.com/kaytu-io/terraform-package/external/backend/local"
 )
 
 const (

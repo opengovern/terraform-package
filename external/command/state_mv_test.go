@@ -13,8 +13,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/mitchellh/cli"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/states"
 )
 
 func TestStateMv(t *testing.T) {
@@ -1616,7 +1616,7 @@ func TestStateMv_fromBackendToLocal(t *testing.T) {
 
 // This test covers moving the only resource in a module to a new address in
 // that module, which triggers the maybePruneModule functionality. This caused
-// a panic report: https://hashicorp/terraform/issues/25520
+// a panic report: https://github.com/kaytu-io/terraform-package/issues/25520
 func TestStateMv_onlyResourceInModule(t *testing.T) {
 	state := states.BuildState(func(s *states.SyncState) {
 		s.SetResourceInstanceCurrent(

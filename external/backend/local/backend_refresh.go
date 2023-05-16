@@ -9,11 +9,11 @@ import (
 	"log"
 	"os"
 
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/logging"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/states/statemgr"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/logging"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 func (b *Local) opRefresh(

@@ -5,7 +5,7 @@ package configs
 
 import (
 	"github.com/hashicorp/hcl/v2"
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 )
 
 type Moved struct {

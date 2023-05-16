@@ -13,10 +13,10 @@ import (
 
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"hashicorp/terraform/external/httpclient"
-	"hashicorp/terraform/external/registry/regsrc"
-	"hashicorp/terraform/external/registry/test"
-	tfversion "hashicorp/terraform/version"
+	"github.com/kaytu-io/terraform-package/external/httpclient"
+	"github.com/kaytu-io/terraform-package/external/registry/regsrc"
+	"github.com/kaytu-io/terraform-package/external/registry/test"
+	tfversion "github.com/kaytu-io/terraform-package/version"
 )
 
 func TestConfigureDiscoveryRetry(t *testing.T) {

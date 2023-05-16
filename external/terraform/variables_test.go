@@ -6,7 +6,7 @@ package terraform
 import (
 	"testing"
 
-	"hashicorp/terraform/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs"
 	"github.com/zclconf/go-cty/cty"
 )
 

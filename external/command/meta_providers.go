@@ -14,16 +14,16 @@ import (
 
 	plugin "github.com/hashicorp/go-plugin"
 
-	"hashicorp/terraform/external/addrs"
-	terraformProvider "hashicorp/terraform/external/builtin/providers/terraform"
-	"hashicorp/terraform/external/getproviders"
-	"hashicorp/terraform/external/logging"
-	"hashicorp/terraform/external/moduletest"
-	tfplugin "hashicorp/terraform/external/plugin"
-	tfplugin6 "hashicorp/terraform/external/plugin6"
-	"hashicorp/terraform/external/providercache"
-	"hashicorp/terraform/external/providers"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	terraformProvider "github.com/kaytu-io/terraform-package/external/builtin/providers/terraform"
+	"github.com/kaytu-io/terraform-package/external/getproviders"
+	"github.com/kaytu-io/terraform-package/external/logging"
+	"github.com/kaytu-io/terraform-package/external/moduletest"
+	tfplugin "github.com/kaytu-io/terraform-package/external/plugin"
+	tfplugin6 "github.com/kaytu-io/terraform-package/external/plugin6"
+	"github.com/kaytu-io/terraform-package/external/providercache"
+	"github.com/kaytu-io/terraform-package/external/providers"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // The TF_DISABLE_PLUGIN_TLS environment variable is intended only for use by

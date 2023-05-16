@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-test/deep"
 
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 )
 
 func TestAddressedTypesAbs(t *testing.T) {

@@ -8,15 +8,15 @@ import (
 	"fmt"
 	"log"
 
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/genconfig"
-	"hashicorp/terraform/external/logging"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/plans/planfile"
-	"hashicorp/terraform/external/states/statefile"
-	"hashicorp/terraform/external/states/statemgr"
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/genconfig"
+	"github.com/kaytu-io/terraform-package/external/logging"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/plans/planfile"
+	"github.com/kaytu-io/terraform-package/external/states/statefile"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 func (b *Local) opPlan(

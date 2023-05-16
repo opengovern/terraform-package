@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"hashicorp/terraform/external/legacy/terraform"
+	"github.com/kaytu-io/terraform-package/external/legacy/terraform"
 )
 
 func TestResourceDataGet(t *testing.T) {
@@ -1537,7 +1537,7 @@ func TestResourceDataHasChange(t *testing.T) {
 			Change: true,
 		},
 
-		// https://hashicorp/terraform/issues/927
+		// https://github.com/kaytu-io/terraform-package/issues/927
 		{
 			Schema: map[string]*Schema{
 				"ports": &Schema{

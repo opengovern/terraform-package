@@ -10,11 +10,11 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/zclconf/go-cty/cty"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/checks"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/lang/marks"
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/checks"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/lang/marks"
+	"github.com/kaytu-io/terraform-package/external/states"
 )
 
 func TestNodeApplyableOutputExecute_knownValue(t *testing.T) {

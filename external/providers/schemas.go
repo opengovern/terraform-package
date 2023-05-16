@@ -4,8 +4,8 @@
 package providers
 
 import (
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
 )
 
 // Schemas is an overall container for all of the schemas for all configurable

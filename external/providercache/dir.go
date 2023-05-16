@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"sort"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/getproviders"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/getproviders"
 )
 
 // Dir represents a single local filesystem directory containing cached

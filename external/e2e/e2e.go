@@ -13,10 +13,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/plans/planfile"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/states/statefile"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/plans/planfile"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/states/statefile"
 )
 
 // Type binary represents the combination of a compiled binary

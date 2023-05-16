@@ -4,8 +4,8 @@
 package terraform
 
 import (
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/provisioners"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/provisioners"
 )
 
 // ResourceProvisioner is an interface that must be implemented by any

@@ -14,9 +14,9 @@ import (
 
 	"strings"
 
-	"hashicorp/terraform/external/communicator"
-	"hashicorp/terraform/external/communicator/remote"
-	"hashicorp/terraform/external/provisioners"
+	"github.com/kaytu-io/terraform-package/external/communicator"
+	"github.com/kaytu-io/terraform-package/external/communicator/remote"
+	"github.com/kaytu-io/terraform-package/external/provisioners"
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 )

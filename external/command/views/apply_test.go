@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/lang/marks"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/terminal"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/lang/marks"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/terminal"
 	"github.com/zclconf/go-cty/cty"
 )
 

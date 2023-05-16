@@ -1,6 +1,6 @@
 version_info {
-  version_var =    "hashicorp/terraform/version.Version"
-  prerelease_var = "hashicorp/terraform/version.Prerelease"
+  version_var =    "github.com/kaytu-io/terraform-package/version.Version"
+  prerelease_var = "github.com/kaytu-io/terraform-package/version.Prerelease"
 }
 
 version_exec = false

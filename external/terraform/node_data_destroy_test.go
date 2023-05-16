@@ -6,8 +6,8 @@ package terraform
 import (
 	"testing"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/states"
 )
 
 func TestNodeDataDestroyExecute(t *testing.T) {

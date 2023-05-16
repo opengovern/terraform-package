@@ -4,8 +4,8 @@
 package terraform
 
 import (
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs"
 )
 
 // RootVariableTransformer is a GraphTransformer that adds all the root

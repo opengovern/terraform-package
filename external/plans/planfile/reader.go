@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/configs/configload"
-	"hashicorp/terraform/external/depsfile"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/states/statefile"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs/configload"
+	"github.com/kaytu-io/terraform-package/external/depsfile"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/states/statefile"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 const tfstateFilename = "tfstate"

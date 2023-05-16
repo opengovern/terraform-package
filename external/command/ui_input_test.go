@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"hashicorp/terraform/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/terraform"
 )
 
 func TestUIInput_impl(t *testing.T) {

@@ -6,7 +6,7 @@ package renderers
 import (
 	"sort"
 
-	"hashicorp/terraform/external/command/jsonformat/computed"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
 )
 
 // Blocks is a helper struct for collating the different kinds of blocks in a

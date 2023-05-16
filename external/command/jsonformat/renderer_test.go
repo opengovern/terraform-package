@@ -6,9 +6,9 @@ package jsonformat
 import (
 	"testing"
 
-	"hashicorp/terraform/external/command/jsonplan"
-	"hashicorp/terraform/external/command/jsonprovider"
-	"hashicorp/terraform/external/command/jsonstate"
+	"github.com/kaytu-io/terraform-package/external/command/jsonplan"
+	"github.com/kaytu-io/terraform-package/external/command/jsonprovider"
+	"github.com/kaytu-io/terraform-package/external/command/jsonstate"
 )
 
 func TestIncompatibleVersions(t *testing.T) {

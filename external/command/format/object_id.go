@@ -4,7 +4,7 @@
 package format
 
 import (
-	"hashicorp/terraform/external/lang/marks"
+	"github.com/kaytu-io/terraform-package/external/lang/marks"
 	"github.com/zclconf/go-cty/cty"
 )
 

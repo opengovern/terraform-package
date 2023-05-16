@@ -13,14 +13,14 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/google/go-cmp/cmp"
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/checks"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/lang/marks"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/providers"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/checks"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/lang/marks"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/providers"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 
@@ -2654,7 +2654,7 @@ func TestContext2Plan_moduleExpandOrphansResourceInstance(t *testing.T) {
 	// registrations in the instance expander that might lead to panics
 	// if we aren't careful.
 	//
-	// (For some history here, see https://hashicorp/terraform/issues/30110 )
+	// (For some history here, see https://github.com/kaytu-io/terraform-package/issues/30110 )
 
 	addrNoKey := mustResourceInstanceAddr("module.child.test_object.a[0]")
 	addrZeroKey := mustResourceInstanceAddr("module.child[0].test_object.a[0]")

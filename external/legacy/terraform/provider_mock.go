@@ -10,8 +10,8 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"hashicorp/terraform/external/configs/hcl2shim"
-	"hashicorp/terraform/external/providers"
+	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
+	"github.com/kaytu-io/terraform-package/external/providers"
 )
 
 var _ providers.Interface = (*MockProvider)(nil)

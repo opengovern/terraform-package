@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	viewsjson "hashicorp/terraform/external/command/views/json"
-	"hashicorp/terraform/external/tfdiags"
+	viewsjson "github.com/kaytu-io/terraform-package/external/command/views/json"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 
 	"github.com/mitchellh/colorstring"
 	wordwrap "github.com/mitchellh/go-wordwrap"

@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/states/statemgr"
-	"hashicorp/terraform/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/terraform"
 )
 
 // StateHook is a hook that continuously updates the state by calling

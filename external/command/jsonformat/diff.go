@@ -4,12 +4,12 @@
 package jsonformat
 
 import (
-	"hashicorp/terraform/external/command/jsonformat/computed"
-	"hashicorp/terraform/external/command/jsonformat/differ"
-	"hashicorp/terraform/external/command/jsonformat/structured"
-	"hashicorp/terraform/external/command/jsonformat/structured/attribute_path"
-	"hashicorp/terraform/external/command/jsonplan"
-	"hashicorp/terraform/external/plans"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/differ"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/structured"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/structured/attribute_path"
+	"github.com/kaytu-io/terraform-package/external/command/jsonplan"
+	"github.com/kaytu-io/terraform-package/external/plans"
 )
 
 func precomputeDiffs(plan Plan, mode plans.Mode) diffs {

@@ -4,8 +4,8 @@
 package provisioners
 
 import (
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

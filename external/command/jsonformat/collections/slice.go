@@ -6,10 +6,10 @@ package collections
 import (
 	"reflect"
 
-	"hashicorp/terraform/external/command/jsonformat/computed"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
 
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/plans/objchange"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/plans/objchange"
 )
 
 type TransformIndices func(before, after int) computed.Diff

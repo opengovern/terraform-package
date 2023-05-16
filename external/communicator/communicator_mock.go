@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"hashicorp/terraform/external/communicator/remote"
-	"hashicorp/terraform/external/provisioners"
+	"github.com/kaytu-io/terraform-package/external/communicator/remote"
+	"github.com/kaytu-io/terraform-package/external/provisioners"
 )
 
 // MockCommunicator is an implementation of Communicator that can be used for tests.

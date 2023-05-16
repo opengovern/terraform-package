@@ -6,8 +6,8 @@ package terraform
 import (
 	"log"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/plans"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/plans"
 )
 
 // reducePlan takes a planned resource instance change as might be produced by

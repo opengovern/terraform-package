@@ -11,12 +11,12 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"hashicorp/terraform/external/addrs"
-	viewsjson "hashicorp/terraform/external/command/views/json"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/terminal"
-	"hashicorp/terraform/external/tfdiags"
-	tfversion "hashicorp/terraform/version"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	viewsjson "github.com/kaytu-io/terraform-package/external/command/views/json"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/terminal"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	tfversion "github.com/kaytu-io/terraform-package/version"
 )
 
 // Calling NewJSONView should also always output a version message, which is a

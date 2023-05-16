@@ -9,8 +9,8 @@ import (
 	"fmt"
 
 	uuid "github.com/hashicorp/go-uuid"
-	"hashicorp/terraform/external/states/remote"
-	"hashicorp/terraform/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/states/remote"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
 	_ "github.com/lib/pq"
 )
 

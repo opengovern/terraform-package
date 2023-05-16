@@ -12,19 +12,19 @@ import (
 	"github.com/mitchellh/colorstring"
 	"github.com/zclconf/go-cty/cty"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/command/jsonformat/differ"
-	"hashicorp/terraform/external/command/jsonformat/structured"
-	"hashicorp/terraform/external/command/jsonformat/structured/attribute_path"
-	"hashicorp/terraform/external/command/jsonplan"
-	"hashicorp/terraform/external/command/jsonprovider"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/lang/marks"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/providers"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/terminal"
-	"hashicorp/terraform/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/differ"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/structured"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/structured/attribute_path"
+	"github.com/kaytu-io/terraform-package/external/command/jsonplan"
+	"github.com/kaytu-io/terraform-package/external/command/jsonprovider"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/lang/marks"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/providers"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/terminal"
+	"github.com/kaytu-io/terraform-package/external/terraform"
 )
 
 func TestRenderHuman_EmptyPlan(t *testing.T) {
@@ -1651,7 +1651,7 @@ func TestResourceChange_JSON(t *testing.T) {
 
 func TestResourceChange_listObject(t *testing.T) {
 	testCases := map[string]testCase{
-		// https://hashicorp/terraform/issues/30641
+		// https://github.com/kaytu-io/terraform-package/issues/30641
 		"updating non-identifying attribute": {
 			Action: plans.Update,
 			Mode:   addrs.ManagedResourceMode,

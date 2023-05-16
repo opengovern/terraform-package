@@ -9,9 +9,9 @@ import (
 
 	"github.com/hashicorp/hcl"
 	hclast "github.com/hashicorp/hcl/hcl/ast"
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/getproviders"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/getproviders"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // ProviderInstallation is the structure of the "provider_installation"

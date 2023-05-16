@@ -10,11 +10,11 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 
-	"hashicorp/terraform/external/backend"
-	statespkg "hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/states/remote"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	statespkg "github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/states/remote"
 
-	_ "hashicorp/terraform/external/logging"
+	_ "github.com/kaytu-io/terraform-package/external/logging"
 )
 
 func TestMain(m *testing.M) {

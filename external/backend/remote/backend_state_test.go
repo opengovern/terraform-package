@@ -8,11 +8,11 @@ import (
 	"os"
 	"testing"
 
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/cloud"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/states/remote"
-	"hashicorp/terraform/external/states/statefile"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/cloud"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/states/remote"
+	"github.com/kaytu-io/terraform-package/external/states/statefile"
 )
 
 func TestRemoteClient_impl(t *testing.T) {

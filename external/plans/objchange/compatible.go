@@ -10,8 +10,8 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/convert"
 
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/lang/marks"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/lang/marks"
 )
 
 // AssertObjectCompatible checks whether the given "actual" value is a valid

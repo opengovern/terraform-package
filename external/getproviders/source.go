@@ -6,7 +6,7 @@ package getproviders
 import (
 	"context"
 
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 )
 
 // A Source can query a particular source for information about providers

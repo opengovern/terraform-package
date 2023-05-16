@@ -8,18 +8,18 @@ import (
 	"reflect"
 	"testing"
 
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 
 	tfe "github.com/hashicorp/go-tfe"
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/command/clistate"
-	"hashicorp/terraform/external/command/views"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/initwd"
-	"hashicorp/terraform/external/states/statemgr"
-	"hashicorp/terraform/external/terminal"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/command/clistate"
+	"github.com/kaytu-io/terraform-package/external/command/views"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/initwd"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/terminal"
 	"github.com/zclconf/go-cty/cty"
 )
 

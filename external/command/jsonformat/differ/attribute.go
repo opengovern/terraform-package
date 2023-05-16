@@ -4,13 +4,13 @@
 package differ
 
 import (
-	"hashicorp/terraform/external/command/jsonformat/structured"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/structured"
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"hashicorp/terraform/external/command/jsonformat/computed"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
 
-	"hashicorp/terraform/external/command/jsonprovider"
+	"github.com/kaytu-io/terraform-package/external/command/jsonprovider"
 )
 
 func ComputeDiffForAttribute(change structured.Change, attribute *jsonprovider.Attribute) computed.Diff {

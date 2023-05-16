@@ -20,10 +20,10 @@ import (
 	svcauth "github.com/hashicorp/terraform-svchost/auth"
 	"golang.org/x/net/idna"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/httpclient"
-	"hashicorp/terraform/external/logging"
-	"hashicorp/terraform/version"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/httpclient"
+	"github.com/kaytu-io/terraform-package/external/logging"
+	"github.com/kaytu-io/terraform-package/version"
 )
 
 // HTTPMirrorSource is a source that reads provider metadata from a provider

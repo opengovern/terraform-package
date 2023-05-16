@@ -15,10 +15,10 @@ import (
 	"time"
 
 	tfe "github.com/hashicorp/go-tfe"
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/logging"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/logging"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/terraform"
 )
 
 var (

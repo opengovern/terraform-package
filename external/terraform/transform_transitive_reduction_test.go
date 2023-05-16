@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 )
 

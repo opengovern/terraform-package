@@ -10,12 +10,12 @@ import (
 	"github.com/go-test/deep"
 	"github.com/zclconf/go-cty/cty"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/checks"
-	"hashicorp/terraform/external/lang/globalref"
-	"hashicorp/terraform/external/lang/marks"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/checks"
+	"github.com/kaytu-io/terraform-package/external/lang/globalref"
+	"github.com/kaytu-io/terraform-package/external/lang/marks"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/states"
 )
 
 func TestTFPlanRoundTrip(t *testing.T) {

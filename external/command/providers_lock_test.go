@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/depsfile"
-	"hashicorp/terraform/external/getproviders"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/depsfile"
+	"github.com/kaytu-io/terraform-package/external/getproviders"
 	"github.com/mitchellh/cli"
 )
 

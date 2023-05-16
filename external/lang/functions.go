@@ -12,8 +12,8 @@ import (
 	"github.com/zclconf/go-cty/cty/function"
 	"github.com/zclconf/go-cty/cty/function/stdlib"
 
-	"hashicorp/terraform/external/experiments"
-	"hashicorp/terraform/external/lang/funcs"
+	"github.com/kaytu-io/terraform-package/external/experiments"
+	"github.com/kaytu-io/terraform-package/external/lang/funcs"
 )
 
 var impureFunctions = []string{

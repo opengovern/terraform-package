@@ -9,10 +9,10 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/didyoumean"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/didyoumean"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // StaticValidateReferences checks the given references against schemas and

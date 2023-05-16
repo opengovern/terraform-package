@@ -13,13 +13,13 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/command/views"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/command/views"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // ImportCommand is a cli.Command implementation that imports resources

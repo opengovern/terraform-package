@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"os"
 
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/command/jsonprovider"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/command/jsonprovider"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // ProvidersCommand is a Command implementation that prints out information

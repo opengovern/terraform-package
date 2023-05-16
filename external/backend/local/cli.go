@@ -6,7 +6,7 @@ package local
 import (
 	"log"
 
-	"hashicorp/terraform/external/backend"
+	"github.com/kaytu-io/terraform-package/external/backend"
 )
 
 // backend.CLI impl.

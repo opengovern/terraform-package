@@ -12,7 +12,7 @@ import (
 
 	svchost "github.com/hashicorp/terraform-svchost"
 
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 )
 
 // SearchLocalDirectory performs an immediate, one-off scan of the given base

@@ -6,12 +6,12 @@ package views
 import (
 	"fmt"
 
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/command/format"
-	"hashicorp/terraform/external/command/views/json"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/command/format"
+	"github.com/kaytu-io/terraform-package/external/command/views/json"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // The Apply view is used for the apply command.

@@ -13,9 +13,9 @@ import (
 
 	"github.com/apparentlymart/go-versions/versions"
 	"github.com/hashicorp/go-getter"
-	"hashicorp/terraform/external/getproviders"
-	"hashicorp/terraform/external/httpclient"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/getproviders"
+	"github.com/kaytu-io/terraform-package/external/httpclient"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // ProvidersMirrorCommand is a Command implementation that implements the

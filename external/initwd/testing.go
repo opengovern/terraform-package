@@ -7,10 +7,10 @@ import (
 	"context"
 	"testing"
 
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/configs/configload"
-	"hashicorp/terraform/external/registry"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs/configload"
+	"github.com/kaytu-io/terraform-package/external/registry"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // LoadConfigForTests is a convenience wrapper around configload.NewLoaderForTests,

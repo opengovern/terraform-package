@@ -6,7 +6,7 @@ package globalref
 import (
 	"sort"
 
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 )
 
 // ContributingResources analyzes all of the given references and

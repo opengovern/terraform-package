@@ -10,15 +10,15 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/backend/local"
-	"hashicorp/terraform/external/backend/remote-state/inmem"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/backend/local"
+	"github.com/kaytu-io/terraform-package/external/backend/remote-state/inmem"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
 	"github.com/mitchellh/cli"
 
-	legacy "hashicorp/terraform/external/legacy/terraform"
+	legacy "github.com/kaytu-io/terraform-package/external/legacy/terraform"
 )
 
 func TestWorkspace_createAndChange(t *testing.T) {

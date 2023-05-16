@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 const invalidFormat = "Invalid state file format"

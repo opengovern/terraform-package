@@ -12,11 +12,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	version "github.com/hashicorp/go-version"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/configs/configload"
-	"hashicorp/terraform/external/copy"
-	"hashicorp/terraform/external/registry"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs/configload"
+	"github.com/kaytu-io/terraform-package/external/copy"
+	"github.com/kaytu-io/terraform-package/external/registry"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 func TestDirFromModule_registry(t *testing.T) {
@@ -142,7 +142,7 @@ func TestDirFromModule_submodules(t *testing.T) {
 	// the same for our "wantCalls" comparison values. Otherwise this test
 	// will fail when building in a source tree with symlinks in $PWD.
 	//
-	// See also: https://hashicorp/terraform/issues/26014
+	// See also: https://github.com/kaytu-io/terraform-package/issues/26014
 	//
 	fromModuleDirRealpath, err := filepath.EvalSymlinks(fromModuleDir)
 	if err != nil {
@@ -214,7 +214,7 @@ func TestDirFromModule_submodules(t *testing.T) {
 
 // TestDirFromModule_rel_submodules is similar to the test above, but the
 // from-module is relative to the install dir ("../"):
-// https://hashicorp/terraform/issues/23010
+// https://github.com/kaytu-io/terraform-package/issues/23010
 func TestDirFromModule_rel_submodules(t *testing.T) {
 	// This test creates a tmpdir with the following directory structure:
 	// - tmpdir/local-modules (with contents of testdata/local-modules)

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/provisioners"
+	"github.com/kaytu-io/terraform-package/external/provisioners"
 	"github.com/zclconf/go-cty/cty"
 )
 

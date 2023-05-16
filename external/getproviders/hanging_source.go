@@ -6,7 +6,7 @@ package getproviders
 import (
 	"context"
 
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 )
 
 // HangingSource is an implementation of Source which hangs until the given

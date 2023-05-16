@@ -15,9 +15,9 @@ import (
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	svchost "github.com/hashicorp/terraform-svchost"
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/depsfile"
-	"hashicorp/terraform/external/getproviders"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/depsfile"
+	"github.com/kaytu-io/terraform-package/external/getproviders"
 )
 
 func TestConfigProviderTypes(t *testing.T) {

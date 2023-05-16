@@ -13,9 +13,9 @@ import (
 	"strings"
 
 	"cloud.google.com/go/storage"
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/httpclient"
-	"hashicorp/terraform/external/legacy/helper/schema"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/httpclient"
+	"github.com/kaytu-io/terraform-package/external/legacy/helper/schema"
 	"golang.org/x/oauth2"
 	"google.golang.org/api/impersonate"
 	"google.golang.org/api/option"

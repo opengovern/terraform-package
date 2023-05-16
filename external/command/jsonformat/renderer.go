@@ -10,16 +10,16 @@ import (
 	"github.com/mitchellh/colorstring"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"hashicorp/terraform/external/command/format"
-	"hashicorp/terraform/external/command/jsonformat/computed"
-	"hashicorp/terraform/external/command/jsonformat/differ"
-	"hashicorp/terraform/external/command/jsonformat/structured"
-	"hashicorp/terraform/external/command/jsonplan"
-	"hashicorp/terraform/external/command/jsonprovider"
-	"hashicorp/terraform/external/command/jsonstate"
-	viewsjson "hashicorp/terraform/external/command/views/json"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/terminal"
+	"github.com/kaytu-io/terraform-package/external/command/format"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/differ"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/structured"
+	"github.com/kaytu-io/terraform-package/external/command/jsonplan"
+	"github.com/kaytu-io/terraform-package/external/command/jsonprovider"
+	"github.com/kaytu-io/terraform-package/external/command/jsonstate"
+	viewsjson "github.com/kaytu-io/terraform-package/external/command/views/json"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/terminal"
 )
 
 type JSONLogType string

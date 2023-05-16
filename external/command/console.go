@@ -9,12 +9,12 @@ import (
 	"os"
 	"strings"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/repl"
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/repl"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 
 	"github.com/mitchellh/cli"
 )

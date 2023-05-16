@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"strings"
 
-	"hashicorp/terraform/external/command/format"
+	"github.com/kaytu-io/terraform-package/external/command/format"
 
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 
-	"hashicorp/terraform/external/command/jsonformat/computed"
-	"hashicorp/terraform/external/plans"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
+	"github.com/kaytu-io/terraform-package/external/plans"
 )
 
 // NoWarningsRenderer defines a Warnings function that returns an empty list of

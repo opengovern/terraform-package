@@ -12,10 +12,10 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"hashicorp/terraform/external/lang"
-	"hashicorp/terraform/external/lang/marks"
-	"hashicorp/terraform/external/lang/types"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/lang"
+	"github.com/kaytu-io/terraform-package/external/lang/marks"
+	"github.com/kaytu-io/terraform-package/external/lang/types"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // Session represents the state for a single REPL session.

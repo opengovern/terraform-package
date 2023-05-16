@@ -6,12 +6,12 @@ package terraform
 import (
 	"fmt"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 
 	"github.com/hashicorp/hcl/v2"
-	"hashicorp/terraform/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs"
 )
 
 // ModuleVariableTransformer is a GraphTransformer that adds all the variables

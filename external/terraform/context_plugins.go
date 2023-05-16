@@ -8,10 +8,10 @@ import (
 	"log"
 	"sync"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/providers"
-	"hashicorp/terraform/external/provisioners"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/providers"
+	"github.com/kaytu-io/terraform-package/external/provisioners"
 )
 
 // contextPlugins represents a library of available plugins (providers and

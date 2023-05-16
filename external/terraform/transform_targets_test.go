@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 )
 
 func TestTargetsTransformer(t *testing.T) {

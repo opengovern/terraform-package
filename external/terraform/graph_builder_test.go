@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 
-	"hashicorp/terraform/external/dag"
+	"github.com/kaytu-io/terraform-package/external/dag"
 )
 
 func TestBasicGraphBuilder_impl(t *testing.T) {

@@ -6,8 +6,8 @@ package renderers
 import (
 	"fmt"
 
-	"hashicorp/terraform/external/command/jsonformat/computed"
-	"hashicorp/terraform/external/plans"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
+	"github.com/kaytu-io/terraform-package/external/plans"
 )
 
 func SensitiveBlock(diff computed.Diff, beforeSensitive, afterSensitive bool) computed.DiffRenderer {

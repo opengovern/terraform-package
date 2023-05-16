@@ -6,7 +6,7 @@ package lang
 import (
 	"testing"
 
-	"hashicorp/terraform/external/lang/funcs"
+	"github.com/kaytu-io/terraform-package/external/lang/funcs"
 )
 
 func TestFunctionDescriptions(t *testing.T) {

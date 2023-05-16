@@ -8,9 +8,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs/configload"
-	"hashicorp/terraform/external/initwd"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs/configload"
+	"github.com/kaytu-io/terraform-package/external/initwd"
 )
 
 func TestChecksHappyPath(t *testing.T) {

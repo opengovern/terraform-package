@@ -6,7 +6,7 @@ package states
 import (
 	"reflect"
 
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 )
 
 // Equal returns true if the receiver is functionally equivalent to other,

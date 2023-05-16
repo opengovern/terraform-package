@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/states/statefile"
-	"hashicorp/terraform/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/states/statefile"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
 )
 
 func TestLocal_impl(t *testing.T) {

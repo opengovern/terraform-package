@@ -16,17 +16,17 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/zclconf/go-cty/cty"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/configs/configload"
-	"hashicorp/terraform/external/initwd"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/providers"
-	"hashicorp/terraform/external/provisioners"
-	"hashicorp/terraform/external/registry"
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs/configload"
+	"github.com/kaytu-io/terraform-package/external/initwd"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/providers"
+	"github.com/kaytu-io/terraform-package/external/provisioners"
+	"github.com/kaytu-io/terraform-package/external/registry"
+	"github.com/kaytu-io/terraform-package/external/states"
 
-	_ "hashicorp/terraform/external/logging"
+	_ "github.com/kaytu-io/terraform-package/external/logging"
 )
 
 // This is the directory where our test fixtures are.

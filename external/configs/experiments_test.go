@@ -9,7 +9,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/hashicorp/hcl/v2"
 
-	"hashicorp/terraform/external/experiments"
+	"github.com/kaytu-io/terraform-package/external/experiments"
 )
 
 func TestExperimentsConfig(t *testing.T) {

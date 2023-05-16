@@ -17,15 +17,15 @@ import (
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl/v2"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/configs/configload"
-	"hashicorp/terraform/external/getmodules"
-	"hashicorp/terraform/external/modsdir"
-	"hashicorp/terraform/external/registry"
-	"hashicorp/terraform/external/registry/regsrc"
-	"hashicorp/terraform/external/registry/response"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs/configload"
+	"github.com/kaytu-io/terraform-package/external/getmodules"
+	"github.com/kaytu-io/terraform-package/external/modsdir"
+	"github.com/kaytu-io/terraform-package/external/registry"
+	"github.com/kaytu-io/terraform-package/external/registry/regsrc"
+	"github.com/kaytu-io/terraform-package/external/registry/response"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 type ModuleInstaller struct {

@@ -11,8 +11,8 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/states"
 )
 
 func TestStateRm(t *testing.T) {

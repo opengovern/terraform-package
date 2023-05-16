@@ -13,9 +13,9 @@ import (
 	"sync"
 	"testing"
 
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 
-	_ "hashicorp/terraform/external/logging"
+	_ "github.com/kaytu-io/terraform-package/external/logging"
 )
 
 func TestMain(m *testing.M) {

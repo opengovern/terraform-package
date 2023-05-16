@@ -11,9 +11,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/legacy/helper/schema"
-	"hashicorp/terraform/version"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/legacy/helper/schema"
+	"github.com/kaytu-io/terraform-package/version"
 	"github.com/mitchellh/go-homedir"
 	k8sSchema "k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/dynamic"

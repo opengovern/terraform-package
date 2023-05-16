@@ -9,7 +9,7 @@ import (
 	"net/http/httputil"
 
 	"github.com/Azure/go-autorest/autorest"
-	"hashicorp/terraform/external/logging"
+	"github.com/kaytu-io/terraform-package/external/logging"
 )
 
 func buildSender() autorest.Sender {

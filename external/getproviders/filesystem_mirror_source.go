@@ -6,7 +6,7 @@ package getproviders
 import (
 	"context"
 
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 )
 
 // FilesystemMirrorSource is a source that reads providers and their metadata

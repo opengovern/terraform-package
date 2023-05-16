@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/e2e"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/e2e"
 )
 
 func TestTerraformProviderData(t *testing.T) {

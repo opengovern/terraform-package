@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/command/views"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/command/views"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // OutputCommand is a Command implementation that reads an output

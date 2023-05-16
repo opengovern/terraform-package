@@ -6,9 +6,9 @@ package terraform
 import (
 	"log"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/logging"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/logging"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // GraphBuilder is an interface that can be implemented and used with

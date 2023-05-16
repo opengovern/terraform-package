@@ -6,10 +6,10 @@ package terraform
 import (
 	"testing"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/instances"
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/instances"
+	"github.com/kaytu-io/terraform-package/external/states"
 )
 
 func TestNodeApplyableResourceExecute(t *testing.T) {

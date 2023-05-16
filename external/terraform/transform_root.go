@@ -4,7 +4,7 @@
 package terraform
 
 import (
-	"hashicorp/terraform/external/dag"
+	"github.com/kaytu-io/terraform-package/external/dag"
 )
 
 const rootNodeName = "root"

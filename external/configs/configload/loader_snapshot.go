@@ -13,8 +13,8 @@ import (
 
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl/v2"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/modsdir"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/modsdir"
 	"github.com/spf13/afero"
 )
 

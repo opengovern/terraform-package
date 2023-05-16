@@ -3,7 +3,7 @@
 
 package terraform
 
-import "hashicorp/terraform/external/dag"
+import "github.com/kaytu-io/terraform-package/external/dag"
 
 // GraphDot returns the dot formatting of a visual representation of
 // the given Terraform graph.

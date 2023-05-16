@@ -6,7 +6,7 @@ package providers
 import (
 	"sort"
 
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 )
 
 // AddressedTypesAbs is a helper that extracts all of the distinct provider

@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"testing"
 
-	"hashicorp/terraform/external/configs/hcl2shim"
-	"hashicorp/terraform/external/legacy/helper/hashcode"
-	"hashicorp/terraform/external/legacy/terraform"
+	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
+	"github.com/kaytu-io/terraform-package/external/legacy/helper/hashcode"
+	"github.com/kaytu-io/terraform-package/external/legacy/terraform"
 )
 
 func TestConfigFieldReader_impl(t *testing.T) {

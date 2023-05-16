@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"strings"
 
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/command/views"
-	"hashicorp/terraform/external/plans/planfile"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/command/views"
+	"github.com/kaytu-io/terraform-package/external/plans/planfile"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // ApplyCommand is a Command implementation that applies a Terraform

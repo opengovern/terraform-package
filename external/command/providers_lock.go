@@ -9,11 +9,11 @@ import (
 	"net/url"
 	"os"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/depsfile"
-	"hashicorp/terraform/external/getproviders"
-	"hashicorp/terraform/external/providercache"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/depsfile"
+	"github.com/kaytu-io/terraform-package/external/getproviders"
+	"github.com/kaytu-io/terraform-package/external/providercache"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 type providersLockChangeType string

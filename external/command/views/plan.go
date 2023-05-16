@@ -6,9 +6,9 @@ package views
 import (
 	"fmt"
 
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // The Plan view is used for the plan command.

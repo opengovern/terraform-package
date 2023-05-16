@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"hashicorp/terraform/external/legacy/terraform"
+	"github.com/kaytu-io/terraform-package/external/legacy/terraform"
 )
 
 func TestDiffFieldReader_impl(t *testing.T) {
@@ -112,7 +112,7 @@ func TestDiffFieldReader_NestedSetUpdate(t *testing.T) {
 	}
 }
 
-// https://hashicorp/terraform/issues/914
+// https://github.com/kaytu-io/terraform-package/issues/914
 func TestDiffFieldReader_MapHandling(t *testing.T) {
 	schema := map[string]*Schema{
 		"tags": &Schema{

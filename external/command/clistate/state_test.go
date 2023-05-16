@@ -6,10 +6,10 @@ package clistate
 import (
 	"testing"
 
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/command/views"
-	"hashicorp/terraform/external/states/statemgr"
-	"hashicorp/terraform/external/terminal"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/command/views"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/terminal"
 )
 
 func TestUnlock(t *testing.T) {

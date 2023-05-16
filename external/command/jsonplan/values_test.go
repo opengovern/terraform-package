@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"testing"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/terraform"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -3,7 +3,7 @@
 
 package terraform
 
-import "hashicorp/terraform/external/tfdiags"
+import "github.com/kaytu-io/terraform-package/external/tfdiags"
 
 // NodeEvalableProvider represents a provider during an "eval" walk.
 // This special provider node type just initializes a provider and

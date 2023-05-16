@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/terminal"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/terminal"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 func TestValidateHuman(t *testing.T) {

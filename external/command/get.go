@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // GetCommand is a Command implementation that takes a Terraform

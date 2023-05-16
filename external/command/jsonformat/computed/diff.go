@@ -6,7 +6,7 @@ package computed
 import (
 	"github.com/mitchellh/colorstring"
 
-	"hashicorp/terraform/external/plans"
+	"github.com/kaytu-io/terraform-package/external/plans"
 )
 
 // Diff captures the computed diff for a single block, element or attribute.

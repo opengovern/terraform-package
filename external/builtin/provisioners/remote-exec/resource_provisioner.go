@@ -14,11 +14,11 @@ import (
 	"os"
 	"strings"
 
-	"hashicorp/terraform/external/communicator"
-	"hashicorp/terraform/external/communicator/remote"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/provisioners"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/communicator"
+	"github.com/kaytu-io/terraform-package/external/communicator/remote"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/provisioners"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/mitchellh/go-linereader"
 	"github.com/zclconf/go-cty/cty"
 )

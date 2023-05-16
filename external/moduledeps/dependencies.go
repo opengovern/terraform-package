@@ -4,8 +4,8 @@
 package moduledeps
 
 import (
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/plugin/discovery"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/plugin/discovery"
 )
 
 // Providers describes a set of provider dependencies for a given module.

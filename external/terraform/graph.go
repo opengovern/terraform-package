@@ -8,12 +8,12 @@ import (
 	"log"
 	"strings"
 
-	"hashicorp/terraform/external/logging"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/logging"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 
-	"hashicorp/terraform/external/dag"
+	"github.com/kaytu-io/terraform-package/external/dag"
 )
 
 // Graph represents the graph that Terraform uses to represent resources

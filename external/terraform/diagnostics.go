@@ -4,7 +4,7 @@
 package terraform
 
 import (
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // This file contains some package-local helpers for working with diagnostics.

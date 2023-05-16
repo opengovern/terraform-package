@@ -10,11 +10,11 @@ import (
 	"sort"
 	"strings"
 
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/command/format"
-	"hashicorp/terraform/external/moduletest"
-	"hashicorp/terraform/external/terminal"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/command/format"
+	"github.com/kaytu-io/terraform-package/external/moduletest"
+	"github.com/kaytu-io/terraform-package/external/terminal"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/mitchellh/colorstring"
 )
 

@@ -13,16 +13,16 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/command/jsonchecks"
-	"hashicorp/terraform/external/command/jsonconfig"
-	"hashicorp/terraform/external/command/jsonstate"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/states/statefile"
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/version"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/command/jsonchecks"
+	"github.com/kaytu-io/terraform-package/external/command/jsonconfig"
+	"github.com/kaytu-io/terraform-package/external/command/jsonstate"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/states/statefile"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/version"
 )
 
 // FormatVersion represents the version of the json format and will be

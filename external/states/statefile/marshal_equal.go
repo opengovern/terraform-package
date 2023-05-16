@@ -6,7 +6,7 @@ package statefile
 import (
 	"bytes"
 
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/states"
 )
 
 // StatesMarshalEqual returns true if and only if the two given states have

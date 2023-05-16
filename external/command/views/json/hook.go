@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/plans"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/plans"
 )
 
 type Hook interface {

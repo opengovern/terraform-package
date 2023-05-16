@@ -19,15 +19,15 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/zclconf/go-cty/cty"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/configs/hcl2shim"
-	"hashicorp/terraform/external/lang/marks"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/providers"
-	"hashicorp/terraform/external/provisioners"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
+	"github.com/kaytu-io/terraform-package/external/lang/marks"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/providers"
+	"github.com/kaytu-io/terraform-package/external/provisioners"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 func TestContext2Plan_basic(t *testing.T) {
@@ -863,7 +863,7 @@ module.child:
 	}
 }
 
-// https://hashicorp/terraform/issues/3114
+// https://github.com/kaytu-io/terraform-package/issues/3114
 func TestContext2Plan_moduleOrphansWithProvisioner(t *testing.T) {
 	m := testModule(t, "plan-modules-remove-provisioners")
 	p := testProvider("aws")
@@ -4223,7 +4223,7 @@ func TestContext2Plan_targetedOrphan(t *testing.T) {
 	}
 }
 
-// https://hashicorp/terraform/issues/2538
+// https://github.com/kaytu-io/terraform-package/issues/2538
 func TestContext2Plan_targetedModuleOrphan(t *testing.T) {
 	m := testModule(t, "plan-targeted-module-orphan")
 	p := testProvider("aws")
@@ -4373,7 +4373,7 @@ func TestContext2Plan_outputContainsTargetedResource(t *testing.T) {
 	}
 }
 
-// https://hashicorp/terraform/issues/4515
+// https://github.com/kaytu-io/terraform-package/issues/4515
 func TestContext2Plan_targetedOverTen(t *testing.T) {
 	m := testModule(t, "plan-targeted-over-ten")
 	p := testProvider("aws")

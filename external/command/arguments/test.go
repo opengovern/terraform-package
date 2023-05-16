@@ -7,7 +7,7 @@ import (
 	"flag"
 	"io/ioutil"
 
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // Test represents the command line arguments for the "terraform test" command.

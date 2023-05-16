@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/e2e"
-	"hashicorp/terraform/external/plans"
+	"github.com/kaytu-io/terraform-package/external/e2e"
+	"github.com/kaytu-io/terraform-package/external/plans"
 )
 
 // The tests in this file run through different scenarios recommended in our

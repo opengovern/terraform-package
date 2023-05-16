@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"hashicorp/terraform/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs/configload"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/initwd"
-	"hashicorp/terraform/external/providers"
-	"hashicorp/terraform/external/registry"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs/configload"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/initwd"
+	"github.com/kaytu-io/terraform-package/external/providers"
+	"github.com/kaytu-io/terraform-package/external/registry"
 	"github.com/zclconf/go-cty/cty"
 )
 

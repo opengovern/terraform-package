@@ -6,7 +6,7 @@ package terraform
 import (
 	"sync"
 
-	"hashicorp/terraform/external/provisioners"
+	"github.com/kaytu-io/terraform-package/external/provisioners"
 )
 
 var _ provisioners.Interface = (*MockProvisioner)(nil)

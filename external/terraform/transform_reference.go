@@ -9,10 +9,10 @@ import (
 	"sort"
 
 	"github.com/hashicorp/hcl/v2"
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/dag"
-	"hashicorp/terraform/external/lang"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/dag"
+	"github.com/kaytu-io/terraform-package/external/lang"
 )
 
 // GraphNodeReferenceable must be implemented by any node that represents

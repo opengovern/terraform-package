@@ -4,12 +4,12 @@
 package differ
 
 import (
-	"hashicorp/terraform/external/command/jsonformat/collections"
-	"hashicorp/terraform/external/command/jsonformat/computed"
-	"hashicorp/terraform/external/command/jsonformat/computed/renderers"
-	"hashicorp/terraform/external/command/jsonformat/structured"
-	"hashicorp/terraform/external/command/jsonprovider"
-	"hashicorp/terraform/external/plans"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/collections"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed/renderers"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/structured"
+	"github.com/kaytu-io/terraform-package/external/command/jsonprovider"
+	"github.com/kaytu-io/terraform-package/external/plans"
 )
 
 func ComputeDiffForBlock(change structured.Change, block *jsonprovider.Block) computed.Diff {

@@ -6,8 +6,8 @@ package terraform
 import (
 	"log"
 
-	"hashicorp/terraform/external/dag"
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/dag"
+	"github.com/kaytu-io/terraform-package/external/states"
 )
 
 // GraphNodeAttachResourceState is an interface that can be implemented

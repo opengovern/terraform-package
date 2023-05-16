@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"hashicorp/terraform/external/lang/marks"
+	"github.com/kaytu-io/terraform-package/external/lang/marks"
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/function"

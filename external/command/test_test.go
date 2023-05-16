@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"hashicorp/terraform/external/command/views"
-	"hashicorp/terraform/external/terminal"
+	"github.com/kaytu-io/terraform-package/external/command/views"
+	"github.com/kaytu-io/terraform-package/external/terminal"
 )
 
 // These are the main tests for the "terraform test" command.

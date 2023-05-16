@@ -10,13 +10,13 @@ import (
 	"sort"
 	"strings"
 
-	"hashicorp/terraform/external/command/format"
-	"hashicorp/terraform/external/command/jsonformat/computed"
-	"hashicorp/terraform/external/command/jsonformat/computed/renderers"
-	"hashicorp/terraform/external/command/jsonplan"
-	"hashicorp/terraform/external/command/jsonprovider"
-	"hashicorp/terraform/external/command/jsonstate"
-	"hashicorp/terraform/external/plans"
+	"github.com/kaytu-io/terraform-package/external/command/format"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed/renderers"
+	"github.com/kaytu-io/terraform-package/external/command/jsonplan"
+	"github.com/kaytu-io/terraform-package/external/command/jsonprovider"
+	"github.com/kaytu-io/terraform-package/external/command/jsonstate"
+	"github.com/kaytu-io/terraform-package/external/plans"
 )
 
 type PlanRendererOpt int

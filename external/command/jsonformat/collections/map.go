@@ -4,8 +4,8 @@
 package collections
 
 import (
-	"hashicorp/terraform/external/command/jsonformat/computed"
-	"hashicorp/terraform/external/plans"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
+	"github.com/kaytu-io/terraform-package/external/plans"
 )
 
 type ProcessKey func(key string) computed.Diff

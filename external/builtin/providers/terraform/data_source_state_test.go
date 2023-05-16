@@ -9,10 +9,10 @@ import (
 	"testing"
 
 	"github.com/apparentlymart/go-dump/dump"
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/configs/configschema"
-	"hashicorp/terraform/external/states/statemgr"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

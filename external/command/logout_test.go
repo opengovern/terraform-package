@@ -12,7 +12,7 @@ import (
 	svchost "github.com/hashicorp/terraform-svchost"
 	svcauth "github.com/hashicorp/terraform-svchost/auth"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"hashicorp/terraform/external/command/cliconfig"
+	"github.com/kaytu-io/terraform-package/external/command/cliconfig"
 )
 
 func TestLogout(t *testing.T) {

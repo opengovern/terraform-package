@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"hashicorp/terraform/external/provisioners"
+	"github.com/kaytu-io/terraform-package/external/provisioners"
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 )

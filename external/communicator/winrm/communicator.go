@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"hashicorp/terraform/external/communicator/remote"
-	"hashicorp/terraform/external/provisioners"
+	"github.com/kaytu-io/terraform-package/external/communicator/remote"
+	"github.com/kaytu-io/terraform-package/external/provisioners"
 	"github.com/masterzen/winrm"
 	"github.com/packer-community/winrmcp/winrmcp"
 	"github.com/zclconf/go-cty/cty"

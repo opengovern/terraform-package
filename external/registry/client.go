@@ -20,11 +20,11 @@ import (
 	"github.com/hashicorp/go-retryablehttp"
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"hashicorp/terraform/external/httpclient"
-	"hashicorp/terraform/external/logging"
-	"hashicorp/terraform/external/registry/regsrc"
-	"hashicorp/terraform/external/registry/response"
-	"hashicorp/terraform/version"
+	"github.com/kaytu-io/terraform-package/external/httpclient"
+	"github.com/kaytu-io/terraform-package/external/logging"
+	"github.com/kaytu-io/terraform-package/external/registry/regsrc"
+	"github.com/kaytu-io/terraform-package/external/registry/response"
+	"github.com/kaytu-io/terraform-package/version"
 )
 
 const (

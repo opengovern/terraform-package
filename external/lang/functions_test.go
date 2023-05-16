@@ -12,8 +12,8 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"hashicorp/terraform/external/experiments"
-	"hashicorp/terraform/external/lang/marks"
+	"github.com/kaytu-io/terraform-package/external/experiments"
+	"github.com/kaytu-io/terraform-package/external/lang/marks"
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/zclconf/go-cty/cty"
 )

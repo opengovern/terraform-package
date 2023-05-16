@@ -14,8 +14,8 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs/hcl2shim"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
 )
 
 func TestStateValidate(t *testing.T) {

@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	tfe "github.com/hashicorp/go-tfe"
-	"hashicorp/terraform/external/states/statefile"
-	"hashicorp/terraform/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/states/statefile"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
 )
 
 func TestState_impl(t *testing.T) {

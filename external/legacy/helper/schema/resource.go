@@ -9,7 +9,7 @@ import (
 	"log"
 	"strconv"
 
-	"hashicorp/terraform/external/legacy/terraform"
+	"github.com/kaytu-io/terraform-package/external/legacy/terraform"
 	"github.com/zclconf/go-cty/cty"
 )
 

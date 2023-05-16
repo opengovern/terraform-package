@@ -6,7 +6,7 @@ package statemgr
 import (
 	"sync"
 
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/states"
 )
 
 // NewTransientInMemory returns a Transient implementation that retains

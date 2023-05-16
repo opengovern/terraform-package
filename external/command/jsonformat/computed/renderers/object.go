@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"sort"
 
-	"hashicorp/terraform/external/command/jsonformat/computed"
-	"hashicorp/terraform/external/plans"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
+	"github.com/kaytu-io/terraform-package/external/plans"
 )
 
 var _ computed.DiffRenderer = (*objectRenderer)(nil)

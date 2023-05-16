@@ -8,14 +8,14 @@ import (
 	"os"
 	"strings"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/command/jsonformat"
-	"hashicorp/terraform/external/command/jsonprovider"
-	"hashicorp/terraform/external/command/jsonstate"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/states/statefile"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/command/jsonformat"
+	"github.com/kaytu-io/terraform-package/external/command/jsonprovider"
+	"github.com/kaytu-io/terraform-package/external/command/jsonstate"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/states/statefile"
 	"github.com/mitchellh/cli"
 )
 

@@ -12,7 +12,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"hashicorp/terraform/external/configs/configload"
+	"github.com/kaytu-io/terraform-package/external/configs/configload"
 )
 
 func TestConfigSnapshotRoundtrip(t *testing.T) {

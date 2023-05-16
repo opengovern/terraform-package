@@ -7,10 +7,10 @@ package statemgr
 // operations done against full state managers.
 
 import (
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/states/statefile"
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/version"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/states/statefile"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/version"
 )
 
 // NewStateFile creates a new statefile.File object, with a newly-minted

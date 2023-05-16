@@ -6,7 +6,7 @@ package terraform
 import (
 	"testing"
 
-	"hashicorp/terraform/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/addrs"
 )
 
 func TestProvisionerUIOutput_impl(t *testing.T) {

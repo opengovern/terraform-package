@@ -12,10 +12,10 @@ import (
 
 	"github.com/apparentlymart/go-versions/versions"
 
-	"hashicorp/terraform/external/addrs"
-	copydir "hashicorp/terraform/external/copy"
-	"hashicorp/terraform/external/depsfile"
-	"hashicorp/terraform/external/getproviders"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	copydir "github.com/kaytu-io/terraform-package/external/copy"
+	"github.com/kaytu-io/terraform-package/external/depsfile"
+	"github.com/kaytu-io/terraform-package/external/getproviders"
 )
 
 // Installer is the main type in this package, representing a provider installer

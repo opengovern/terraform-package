@@ -15,15 +15,15 @@ import (
 	"sort"
 	"strings"
 
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/backend/remote"
-	"hashicorp/terraform/external/cloud"
-	"hashicorp/terraform/external/command/arguments"
-	"hashicorp/terraform/external/command/clistate"
-	"hashicorp/terraform/external/command/views"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/states/statemgr"
-	"hashicorp/terraform/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/backend/remote"
+	"github.com/kaytu-io/terraform-package/external/cloud"
+	"github.com/kaytu-io/terraform-package/external/command/arguments"
+	"github.com/kaytu-io/terraform-package/external/command/clistate"
+	"github.com/kaytu-io/terraform-package/external/command/views"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/kaytu-io/terraform-package/external/terraform"
 )
 
 type backendMigrateOpts struct {

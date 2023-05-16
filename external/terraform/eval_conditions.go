@@ -12,13 +12,13 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/convert"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/checks"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/instances"
-	"hashicorp/terraform/external/lang"
-	"hashicorp/terraform/external/lang/marks"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/checks"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/instances"
+	"github.com/kaytu-io/terraform-package/external/lang"
+	"github.com/kaytu-io/terraform-package/external/lang/marks"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // evalCheckRules ensures that all of the given check rules pass against

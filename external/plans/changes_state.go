@@ -4,7 +4,7 @@
 package plans
 
 import (
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/states"
 )
 
 // PlannedState merges the set of changes described by the receiver into the

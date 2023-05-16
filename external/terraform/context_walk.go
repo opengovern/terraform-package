@@ -7,13 +7,13 @@ import (
 	"log"
 	"time"
 
-	"hashicorp/terraform/external/checks"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/instances"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/refactoring"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/checks"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/instances"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/refactoring"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 // graphWalkOpts captures some transient values we use (and possibly mutate)

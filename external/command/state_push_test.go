@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/backend/remote-state/inmem"
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/backend/remote-state/inmem"
+	"github.com/kaytu-io/terraform-package/external/states"
 	"github.com/mitchellh/cli"
 )
 

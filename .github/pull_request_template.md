@@ -4,7 +4,7 @@ Describe in detail the changes you are proposing, and the rationale.
 
 See the contributing guide:
 
-https://hashicorp/terraform/blob/main/.github/CONTRIBUTING.md
+https://github.com/kaytu-io/terraform-package/blob/main/.github/CONTRIBUTING.md
 
 -->
 

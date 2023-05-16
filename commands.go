@@ -13,14 +13,14 @@ import (
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/auth"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/command"
-	"hashicorp/terraform/external/command/cliconfig"
-	"hashicorp/terraform/external/command/views"
-	"hashicorp/terraform/external/command/webbrowser"
-	"hashicorp/terraform/external/getproviders"
-	pluginDiscovery "hashicorp/terraform/external/plugin/discovery"
-	"hashicorp/terraform/external/terminal"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/command"
+	"github.com/kaytu-io/terraform-package/external/command/cliconfig"
+	"github.com/kaytu-io/terraform-package/external/command/views"
+	"github.com/kaytu-io/terraform-package/external/command/webbrowser"
+	"github.com/kaytu-io/terraform-package/external/getproviders"
+	pluginDiscovery "github.com/kaytu-io/terraform-package/external/plugin/discovery"
+	"github.com/kaytu-io/terraform-package/external/terminal"
 )
 
 // runningInAutomationEnvName gives the name of an environment variable that

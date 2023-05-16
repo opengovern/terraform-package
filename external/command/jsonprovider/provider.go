@@ -6,7 +6,7 @@ package jsonprovider
 import (
 	"encoding/json"
 
-	"hashicorp/terraform/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/terraform"
 )
 
 // FormatVersion represents the version of the json format and will be

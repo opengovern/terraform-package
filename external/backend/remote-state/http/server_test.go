@@ -23,10 +23,10 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/states"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/states"
 	"github.com/zclconf/go-cty/cty"
 )
 

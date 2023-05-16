@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	_ "hashicorp/terraform/external/logging"
+	_ "github.com/kaytu-io/terraform-package/external/logging"
 )
 
 func TestMain(m *testing.M) {

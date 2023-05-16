@@ -19,10 +19,10 @@ import (
 
 	tfe "github.com/hashicorp/go-tfe"
 	version "github.com/hashicorp/go-version"
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/logging"
-	"hashicorp/terraform/external/plans"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/logging"
+	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 )
 
 var planConfigurationVersionsPollInterval = 500 * time.Millisecond

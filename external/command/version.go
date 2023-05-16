@@ -10,9 +10,9 @@ import (
 	"sort"
 	"strings"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/depsfile"
-	"hashicorp/terraform/external/getproviders"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/depsfile"
+	"github.com/kaytu-io/terraform-package/external/getproviders"
 )
 
 // VersionCommand is a Command implementation prints the version.

@@ -13,12 +13,12 @@ import (
 
 	tfe "github.com/hashicorp/go-tfe"
 	version "github.com/hashicorp/go-version"
-	"hashicorp/terraform/external/backend"
-	"hashicorp/terraform/external/tfdiags"
-	tfversion "hashicorp/terraform/version"
+	"github.com/kaytu-io/terraform-package/external/backend"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	tfversion "github.com/kaytu-io/terraform-package/version"
 	"github.com/zclconf/go-cty/cty"
 
-	backendLocal "hashicorp/terraform/external/backend/local"
+	backendLocal "github.com/kaytu-io/terraform-package/external/backend/local"
 )
 
 func TestCloud(t *testing.T) {

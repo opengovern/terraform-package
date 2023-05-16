@@ -16,10 +16,10 @@ import (
 	version "github.com/hashicorp/go-version"
 	"github.com/zclconf/go-cty/cty"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/states"
-	"hashicorp/terraform/external/states/statefile"
-	tfversion "hashicorp/terraform/version"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/kaytu-io/terraform-package/external/states/statefile"
+	tfversion "github.com/kaytu-io/terraform-package/version"
 )
 
 func TestFilesystem(t *testing.T) {

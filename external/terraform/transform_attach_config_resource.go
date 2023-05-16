@@ -6,8 +6,8 @@ package terraform
 import (
 	"log"
 
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/dag"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/dag"
 )
 
 // GraphNodeAttachResourceConfig is an interface that must be implemented by nodes

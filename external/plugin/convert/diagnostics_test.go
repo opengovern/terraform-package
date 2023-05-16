@@ -11,8 +11,8 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"hashicorp/terraform/external/tfdiags"
-	proto "hashicorp/terraform/external/tfplugin5"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	proto "github.com/kaytu-io/terraform-package/external/tfplugin5"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -14,7 +14,7 @@ import (
 	"io"
 	"os"
 
-	"hashicorp/terraform/external/repl"
+	"github.com/kaytu-io/terraform-package/external/repl"
 
 	"github.com/chzyer/readline"
 	"github.com/mitchellh/cli"

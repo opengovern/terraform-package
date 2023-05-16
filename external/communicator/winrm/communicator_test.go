@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/dylanmei/winrmtest"
-	"hashicorp/terraform/external/communicator/remote"
-	"hashicorp/terraform/external/communicator/shared"
+	"github.com/kaytu-io/terraform-package/external/communicator/remote"
+	"github.com/kaytu-io/terraform-package/external/communicator/shared"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -6,8 +6,8 @@ package terraform
 import (
 	"log"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/dag"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/dag"
 )
 
 // GraphNodeTargetable is an interface for graph nodes to implement when they

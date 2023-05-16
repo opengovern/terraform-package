@@ -7,9 +7,9 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/hcl/v2"
-	"hashicorp/terraform/external/configs"
-	"hashicorp/terraform/external/terraform"
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

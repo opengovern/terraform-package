@@ -4,9 +4,9 @@
 package terraform
 
 import (
-	"hashicorp/terraform/external/tfdiags"
+	"github.com/kaytu-io/terraform-package/external/tfdiags"
 
-	"hashicorp/terraform/external/configs"
+	"github.com/kaytu-io/terraform-package/external/configs"
 )
 
 // CheckCoreVersionRequirements visits each of the modules in the given

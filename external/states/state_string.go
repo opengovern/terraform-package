@@ -10,8 +10,8 @@ import (
 
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"hashicorp/terraform/external/addrs"
-	"hashicorp/terraform/external/configs/hcl2shim"
+	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
 )
 
 // String returns a rather-odd string representation of the entire state.

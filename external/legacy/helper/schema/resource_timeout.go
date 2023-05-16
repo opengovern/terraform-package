@@ -8,8 +8,8 @@ import (
 	"log"
 	"time"
 
-	"hashicorp/terraform/external/configs/hcl2shim"
-	"hashicorp/terraform/external/legacy/terraform"
+	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
+	"github.com/kaytu-io/terraform-package/external/legacy/terraform"
 	"github.com/mitchellh/copystructure"
 )
 

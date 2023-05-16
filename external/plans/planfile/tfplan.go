@@ -17,7 +17,7 @@ import (
 	"github.com/kaytu-io/terraform-package/external/lang/globalref"
 	"github.com/kaytu-io/terraform-package/external/lang/marks"
 	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/plans/external/planproto"
+	"github.com/kaytu-io/terraform-package/external/plans/internal/planproto"
 	"github.com/kaytu-io/terraform-package/external/states"
 	"github.com/kaytu-io/terraform-package/version"
 )

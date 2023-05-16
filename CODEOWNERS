@@ -1,0 +1,27 @@
+# Each line is a file pattern followed by one or more owners.
+# More on CODEOWNERS files: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners
+
+# Remote-state backend                  # Maintainer
+/external/backend/remote-state/artifactory       Unmaintained
+/external/backend/remote-state/azure             @github.com/hashicorp/terraform-azure
+/external/backend/remote-state/consul            @hashicorp/consul @remilapeyre
+/external/backend/remote-state/cos               @likexian
+/external/backend/remote-state/etcdv2            Unmaintained
+/external/backend/remote-state/etcdv3            Unmaintained
+/external/backend/remote-state/gcs               @github.com/hashicorp/terraform-google @github.com/hashicorp/terraform-ecosystem-strategic
+/external/backend/remote-state/http              @github.com/hashicorp/terraform-core
+/external/backend/remote-state/manta             Unmaintained
+/external/backend/remote-state/oss               @xiaozhu36
+/external/backend/remote-state/pg                @remilapeyre
+/external/backend/remote-state/s3                @github.com/hashicorp/terraform-aws
+/external/backend/remote-state/swift             Unmaintained
+/external/backend/remote-state/kubernetes        @jrhouston @alexsomesan
+
+# Provisioners
+builtin/provisioners/chef               Deprecated
+builtin/provisioners/file               @github.com/hashicorp/terraform-core
+builtin/provisioners/habitat            Deprecated
+builtin/provisioners/local-exec         @github.com/hashicorp/terraform-core
+builtin/provisioners/puppet             Deprecated
+builtin/provisioners/remote-exec        @github.com/hashicorp/terraform-core
+builtin/provisioners/salt-masterless    Deprecated

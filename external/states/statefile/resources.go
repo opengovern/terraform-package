@@ -1,21 +1,17 @@
 package statefile
 
 import (
+	"io"
+	"sort"
+
 	"github.com/kaytu-io/terraform-package/external/addrs"
 	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
-	"os"
-	"sort"
 
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 )
 
 // Returns the list of ARNs for all resources in the state file
-func GetResourcesArn(path string) []string {
-	f, err := os.Open("terraform.tfstate")
-	if err != nil {
-		panic(err)
-	}
-
+func GetResourcesArn(f io.Reader) []string {
 	result, err := Read(f)
 	if err != nil {
 		panic(err)

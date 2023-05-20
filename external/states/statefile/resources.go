@@ -59,3 +59,21 @@ func GetResourcesArn(f io.Reader) []string {
 	}
 	return arns
 }
+
+// Returns the list of resource types
+func GetResourcesTypes(f io.Reader) []string {
+	result, err := Read(f)
+	if err != nil {
+		panic(err)
+	}
+
+	types := make([]string, 0)
+
+	state := result.State
+	for _, ms := range state.Modules {
+		for _, re := range ms.Resources {
+			types = append(types, re.Addr.Resource.Type)
+		}
+	}
+	return types
+}

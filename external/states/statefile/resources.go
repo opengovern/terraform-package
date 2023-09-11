@@ -1,6 +1,7 @@
 package statefile
 
 import (
+	"github.com/kaytu-io/terraform-package/external/states"
 	"io"
 	"sort"
 
@@ -17,9 +18,12 @@ func GetResourcesArn(f io.Reader) []string {
 		panic(err)
 	}
 
-	arns := make([]string, 0)
-
 	state := result.State
+	return GetArnsFromStateFile(state)
+}
+
+func GetArnsFromStateFile(state *states.State) []string {
+	arns := make([]string, 0)
 	for _, ms := range state.Modules {
 		addrsOrder := make([]addrs.AbsResourceInstance, 0, len(ms.Resources))
 		for _, rs := range ms.Resources {
@@ -67,9 +71,13 @@ func GetResourcesTypes(f io.Reader) []string {
 		panic(err)
 	}
 
+	state := result.State
+	return GetResourcesTypesFromState(state)
+}
+
+func GetResourcesTypesFromState(state *states.State) []string {
 	types := make([]string, 0)
 
-	state := result.State
 	for _, ms := range state.Modules {
 		for _, re := range ms.Resources {
 			types = append(types, re.Addr.Resource.Type)

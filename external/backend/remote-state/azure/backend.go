@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/legacy/helper/schema"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/legacy/helper/schema"
 )
 
 // New creates a new backend for Azure remote state.

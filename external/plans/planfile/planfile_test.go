@@ -9,14 +9,14 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs/configload"
-	"github.com/kaytu-io/terraform-package/external/depsfile"
-	"github.com/kaytu-io/terraform-package/external/getproviders"
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/states/statefile"
-	tfversion "github.com/kaytu-io/terraform-package/version"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs/configload"
+	"github.com/opengovern/terraform-package/external/depsfile"
+	"github.com/opengovern/terraform-package/external/getproviders"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/states/statefile"
+	tfversion "github.com/opengovern/terraform-package/version"
 )
 
 func TestRoundtrip(t *testing.T) {

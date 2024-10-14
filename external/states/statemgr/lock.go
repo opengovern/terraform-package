@@ -4,8 +4,8 @@
 package statemgr
 
 import (
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/terraform"
 )
 
 // LockDisabled implements State and Locker but disables state locking.

@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/states"
 )
 
 // ChangesSync is a wrapper around a Changes that provides a concurrency-safe

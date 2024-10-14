@@ -6,8 +6,8 @@ package plans
 import (
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/states"
 )
 
 // Changes describes various actions that Terraform will attempt to take if

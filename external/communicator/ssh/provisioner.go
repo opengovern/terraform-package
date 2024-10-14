@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kaytu-io/terraform-package/external/communicator/shared"
+	"github.com/opengovern/terraform-package/external/communicator/shared"
 	sshagent "github.com/xanzy/ssh-agent"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/gocty"

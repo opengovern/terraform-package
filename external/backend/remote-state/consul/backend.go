@@ -10,8 +10,8 @@ import (
 	"time"
 
 	consulapi "github.com/hashicorp/consul/api"
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/legacy/helper/schema"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/legacy/helper/schema"
 )
 
 // New creates a new backend for Consul remote state.

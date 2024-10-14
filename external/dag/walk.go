@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // Walker is used to walk every vertex of a graph in parallel.

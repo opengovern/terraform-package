@@ -11,12 +11,12 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/instances"
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/providers"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/instances"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/providers"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // NodePlannableResourceInstance represents a _single_ resource

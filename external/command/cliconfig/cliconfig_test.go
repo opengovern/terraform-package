@@ -11,7 +11,7 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/google/go-cmp/cmp"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // This is the directory where our test fixtures are.

@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
-	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/terraform"
 )
 
 // StateHook is a hook that continuously updates the state by calling

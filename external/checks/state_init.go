@@ -4,8 +4,8 @@
 package checks
 
 import (
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs"
 )
 
 func initialStatuses(cfg *configs.Config) addrs.Map[addrs.ConfigCheckable, *configCheckableState] {

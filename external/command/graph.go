@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/command/arguments"
-	"github.com/kaytu-io/terraform-package/external/dag"
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/plans/planfile"
-	"github.com/kaytu-io/terraform-package/external/terraform"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/command/arguments"
+	"github.com/opengovern/terraform-package/external/dag"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/plans/planfile"
+	"github.com/opengovern/terraform-package/external/terraform"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // GraphCommand is a Command implementation that takes a Terraform

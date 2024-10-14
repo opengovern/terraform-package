@@ -8,11 +8,11 @@ import (
 
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/differ"
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/structured"
-	"github.com/kaytu-io/terraform-package/external/command/jsonprovider"
-	"github.com/kaytu-io/terraform-package/external/command/jsonstate"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/computed"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/differ"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/structured"
+	"github.com/opengovern/terraform-package/external/command/jsonprovider"
+	"github.com/opengovern/terraform-package/external/command/jsonstate"
 )
 
 type State struct {

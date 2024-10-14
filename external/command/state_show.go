@@ -8,15 +8,15 @@ import (
 	"os"
 	"strings"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/command/arguments"
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat"
-	"github.com/kaytu-io/terraform-package/external/command/jsonprovider"
-	"github.com/kaytu-io/terraform-package/external/command/jsonstate"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/states/statefile"
 	"github.com/mitchellh/cli"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/command/arguments"
+	"github.com/opengovern/terraform-package/external/command/jsonformat"
+	"github.com/opengovern/terraform-package/external/command/jsonprovider"
+	"github.com/opengovern/terraform-package/external/command/jsonstate"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/states/statefile"
 )
 
 // StateShowCommand is a Command implementation that shows a single resource.

@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	svchost "github.com/hashicorp/terraform-svchost"
-	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/addrs"
 )
 
 var (

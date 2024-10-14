@@ -4,8 +4,8 @@
 package moduledeps
 
 import (
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/plugin/discovery"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/plugin/discovery"
 )
 
 // Providers describes a set of provider dependencies for a given module.

@@ -1,4 +1,4 @@
-module github.com/kaytu-io/terraform-package
+module github.com/opengovern/terraform-package
 
 require (
 	cloud.google.com/go/kms v1.6.0

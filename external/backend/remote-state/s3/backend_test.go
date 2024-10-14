@@ -15,10 +15,10 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/s3"
 	awsbase "github.com/hashicorp/aws-sdk-go-base"
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/states/remote"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/configs/hcl2shim"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/states/remote"
 )
 
 var (

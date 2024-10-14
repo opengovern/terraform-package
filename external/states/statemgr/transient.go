@@ -3,7 +3,7 @@
 
 package statemgr
 
-import "github.com/kaytu-io/terraform-package/external/states"
+import "github.com/opengovern/terraform-package/external/states"
 
 // Transient is a union of the Reader and Writer interfaces, for types that
 // deal with transient snapshots.

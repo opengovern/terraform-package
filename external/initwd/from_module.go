@@ -14,16 +14,16 @@ import (
 	"strings"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs"
-	"github.com/kaytu-io/terraform-package/external/configs/configload"
-	"github.com/kaytu-io/terraform-package/external/copy"
-	"github.com/kaytu-io/terraform-package/external/getmodules"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs"
+	"github.com/opengovern/terraform-package/external/configs/configload"
+	"github.com/opengovern/terraform-package/external/copy"
+	"github.com/opengovern/terraform-package/external/getmodules"
 
 	version "github.com/hashicorp/go-version"
-	"github.com/kaytu-io/terraform-package/external/modsdir"
-	"github.com/kaytu-io/terraform-package/external/registry"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/modsdir"
+	"github.com/opengovern/terraform-package/external/registry"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 const initFromModuleRootCallName = "root"

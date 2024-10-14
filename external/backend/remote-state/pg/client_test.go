@@ -4,15 +4,15 @@
 package pg
 
 // Create the test database: createdb terraform_backend_pg_test
-// TF_ACC=1 GO111MODULE=on go test -v -mod=vendor -timeout=2m -parallel=4 github.com/kaytu-io/terraform-package/backend/remote-state/pg
+// TF_ACC=1 GO111MODULE=on go test -v -mod=vendor -timeout=2m -parallel=4 github.com/opengovern/terraform-package/backend/remote-state/pg
 
 import (
 	"database/sql"
 	"fmt"
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/states/remote"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/states/remote"
 )
 
 func TestRemoteClient_impl(t *testing.T) {

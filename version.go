@@ -4,7 +4,7 @@
 package main
 
 import (
-	"github.com/kaytu-io/terraform-package/version"
+	"github.com/opengovern/terraform-package/version"
 )
 
 var Version = version.Version

@@ -11,11 +11,11 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
-	"github.com/kaytu-io/terraform-package/external/lang/marks"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/lang/marks"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/terraform"
 )
 
 func TestMarshalOutputs(t *testing.T) {

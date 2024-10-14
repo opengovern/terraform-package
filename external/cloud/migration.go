@@ -4,8 +4,8 @@
 package cloud
 
 import (
-	"github.com/kaytu-io/terraform-package/external/configs"
-	legacy "github.com/kaytu-io/terraform-package/external/legacy/terraform"
+	"github.com/opengovern/terraform-package/external/configs"
+	legacy "github.com/opengovern/terraform-package/external/legacy/terraform"
 )
 
 // Most of the logic for migrating into and out of "cloud mode" actually lives

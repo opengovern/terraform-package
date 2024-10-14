@@ -10,9 +10,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/legacy/helper/schema"
 	"github.com/lib/pq"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/legacy/helper/schema"
 )
 
 const (

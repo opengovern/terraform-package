@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/mitchellh/cli"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // StateListCommand is a Command implementation that lists the resources

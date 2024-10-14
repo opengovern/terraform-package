@@ -6,8 +6,8 @@ package statemgr
 import (
 	"fmt"
 
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/states/statefile"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/states/statefile"
 )
 
 // PlannedStateUpdate is a special helper to obtain a statefile representation

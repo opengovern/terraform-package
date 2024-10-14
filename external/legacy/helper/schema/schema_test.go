@@ -14,9 +14,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
-	"github.com/kaytu-io/terraform-package/external/legacy/helper/hashcode"
-	"github.com/kaytu-io/terraform-package/external/legacy/terraform"
+	"github.com/opengovern/terraform-package/external/configs/hcl2shim"
+	"github.com/opengovern/terraform-package/external/legacy/helper/hashcode"
+	"github.com/opengovern/terraform-package/external/legacy/terraform"
 )
 
 func TestEnvDefaultFunc(t *testing.T) {
@@ -1951,7 +1951,7 @@ func TestSchemaMap_Diff(t *testing.T) {
 		},
 
 		{
-			Name: "https://github.com/kaytu-io/terraform-package/issues/824",
+			Name: "https://github.com/opengovern/terraform-package/issues/824",
 			Schema: map[string]*Schema{
 				"block_device": &Schema{
 					Type:     TypeSet,

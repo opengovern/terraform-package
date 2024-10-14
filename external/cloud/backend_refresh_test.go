@@ -9,15 +9,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/command/arguments"
-	"github.com/kaytu-io/terraform-package/external/command/clistate"
-	"github.com/kaytu-io/terraform-package/external/command/views"
-	"github.com/kaytu-io/terraform-package/external/initwd"
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
-	"github.com/kaytu-io/terraform-package/external/terminal"
 	"github.com/mitchellh/cli"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/command/arguments"
+	"github.com/opengovern/terraform-package/external/command/clistate"
+	"github.com/opengovern/terraform-package/external/command/views"
+	"github.com/opengovern/terraform-package/external/initwd"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/terminal"
 )
 
 func testOperationRefresh(t *testing.T, configDir string) (*backend.Operation, func(), func(*testing.T) *terminal.TestOutput) {

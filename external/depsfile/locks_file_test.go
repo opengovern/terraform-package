@@ -12,9 +12,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/getproviders"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/getproviders"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 func TestLoadLocksFromFile(t *testing.T) {

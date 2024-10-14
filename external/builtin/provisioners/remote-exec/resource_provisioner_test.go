@@ -14,10 +14,10 @@ import (
 
 	"strings"
 
-	"github.com/kaytu-io/terraform-package/external/communicator"
-	"github.com/kaytu-io/terraform-package/external/communicator/remote"
-	"github.com/kaytu-io/terraform-package/external/provisioners"
 	"github.com/mitchellh/cli"
+	"github.com/opengovern/terraform-package/external/communicator"
+	"github.com/opengovern/terraform-package/external/communicator/remote"
+	"github.com/opengovern/terraform-package/external/provisioners"
 	"github.com/zclconf/go-cty/cty"
 )
 

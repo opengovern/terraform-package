@@ -7,8 +7,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/terraform"
 )
 
 // NewFullFake returns a full state manager that really only supports transient

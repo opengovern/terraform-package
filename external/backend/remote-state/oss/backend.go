@@ -32,9 +32,9 @@ import (
 	"github.com/jmespath/go-jmespath"
 	"github.com/mitchellh/go-homedir"
 
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/legacy/helper/schema"
-	"github.com/kaytu-io/terraform-package/version"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/legacy/helper/schema"
+	"github.com/opengovern/terraform-package/version"
 )
 
 // Deprecated in favor of flattening assume_role_* options

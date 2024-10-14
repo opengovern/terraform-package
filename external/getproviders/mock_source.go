@@ -9,7 +9,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/addrs"
 )
 
 // MockSource is an in-memory-only, statically-configured source intended for

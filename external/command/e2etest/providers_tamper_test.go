@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/external/e2e"
-	"github.com/kaytu-io/terraform-package/external/getproviders"
+	"github.com/opengovern/terraform-package/external/e2e"
+	"github.com/opengovern/terraform-package/external/getproviders"
 )
 
 // TestProviderTampering tests various ways that the provider plugins in the

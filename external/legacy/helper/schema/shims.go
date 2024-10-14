@@ -9,9 +9,9 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
-	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
-	"github.com/kaytu-io/terraform-package/external/legacy/terraform"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/configs/hcl2shim"
+	"github.com/opengovern/terraform-package/external/legacy/terraform"
 )
 
 // DiffFromValues takes the current state and desired state as cty.Values and

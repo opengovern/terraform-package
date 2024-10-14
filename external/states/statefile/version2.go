@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 func readStateV2(src []byte) (*File, tfdiags.Diagnostics) {

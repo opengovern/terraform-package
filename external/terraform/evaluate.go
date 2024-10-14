@@ -15,15 +15,15 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs"
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
-	"github.com/kaytu-io/terraform-package/external/instances"
-	"github.com/kaytu-io/terraform-package/external/lang"
-	"github.com/kaytu-io/terraform-package/external/lang/marks"
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/instances"
+	"github.com/opengovern/terraform-package/external/lang"
+	"github.com/opengovern/terraform-package/external/lang/marks"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // Evaluator provides the necessary contextual data for evaluating expressions

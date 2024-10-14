@@ -4,7 +4,7 @@
 package terraform
 
 import (
-	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/addrs"
 )
 
 // GraphNodeModuleInstance says that a node is part of a graph with a

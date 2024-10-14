@@ -11,10 +11,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/legacy/helper/schema"
-	"github.com/kaytu-io/terraform-package/version"
 	"github.com/mitchellh/go-homedir"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/legacy/helper/schema"
+	"github.com/opengovern/terraform-package/version"
 	k8sSchema "k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/dynamic"
 	"k8s.io/client-go/kubernetes"

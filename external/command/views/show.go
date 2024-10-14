@@ -6,16 +6,16 @@ package views
 import (
 	"fmt"
 
-	"github.com/kaytu-io/terraform-package/external/command/arguments"
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat"
-	"github.com/kaytu-io/terraform-package/external/command/jsonplan"
-	"github.com/kaytu-io/terraform-package/external/command/jsonprovider"
-	"github.com/kaytu-io/terraform-package/external/command/jsonstate"
-	"github.com/kaytu-io/terraform-package/external/configs"
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/states/statefile"
-	"github.com/kaytu-io/terraform-package/external/terraform"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/command/arguments"
+	"github.com/opengovern/terraform-package/external/command/jsonformat"
+	"github.com/opengovern/terraform-package/external/command/jsonplan"
+	"github.com/opengovern/terraform-package/external/command/jsonprovider"
+	"github.com/opengovern/terraform-package/external/command/jsonstate"
+	"github.com/opengovern/terraform-package/external/configs"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/states/statefile"
+	"github.com/opengovern/terraform-package/external/terraform"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 type Show interface {

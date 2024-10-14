@@ -12,20 +12,20 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/configs"
-	"github.com/kaytu-io/terraform-package/external/copy"
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/states/statefile"
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
 	"github.com/mitchellh/cli"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/configs"
+	"github.com/opengovern/terraform-package/external/copy"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/states/statefile"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
 	"github.com/zclconf/go-cty/cty"
 
-	backendInit "github.com/kaytu-io/terraform-package/external/backend/init"
-	backendLocal "github.com/kaytu-io/terraform-package/external/backend/local"
-	backendInmem "github.com/kaytu-io/terraform-package/external/backend/remote-state/inmem"
+	backendInit "github.com/opengovern/terraform-package/external/backend/init"
+	backendLocal "github.com/opengovern/terraform-package/external/backend/local"
+	backendInmem "github.com/opengovern/terraform-package/external/backend/remote-state/inmem"
 )
 
 // Test empty directory with no config/state creates a local state.

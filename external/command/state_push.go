@@ -9,14 +9,14 @@ import (
 	"os"
 	"strings"
 
-	"github.com/kaytu-io/terraform-package/external/command/arguments"
-	"github.com/kaytu-io/terraform-package/external/command/clistate"
-	"github.com/kaytu-io/terraform-package/external/command/views"
-	"github.com/kaytu-io/terraform-package/external/states/statefile"
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
-	"github.com/kaytu-io/terraform-package/external/terraform"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/mitchellh/cli"
+	"github.com/opengovern/terraform-package/external/command/arguments"
+	"github.com/opengovern/terraform-package/external/command/clistate"
+	"github.com/opengovern/terraform-package/external/command/views"
+	"github.com/opengovern/terraform-package/external/states/statefile"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/terraform"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // StatePushCommand is a Command implementation that shows a single resource.

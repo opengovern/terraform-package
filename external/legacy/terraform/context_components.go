@@ -6,9 +6,9 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/providers"
-	"github.com/kaytu-io/terraform-package/external/provisioners"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/providers"
+	"github.com/opengovern/terraform-package/external/provisioners"
 )
 
 // contextComponentFactory is the interface that Context uses

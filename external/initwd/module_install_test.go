@@ -19,14 +19,14 @@ import (
 	"github.com/google/go-cmp/cmp"
 	version "github.com/hashicorp/go-version"
 	svchost "github.com/hashicorp/terraform-svchost"
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs"
-	"github.com/kaytu-io/terraform-package/external/configs/configload"
-	"github.com/kaytu-io/terraform-package/external/copy"
-	"github.com/kaytu-io/terraform-package/external/registry"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs"
+	"github.com/opengovern/terraform-package/external/configs/configload"
+	"github.com/opengovern/terraform-package/external/copy"
+	"github.com/opengovern/terraform-package/external/registry"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 
-	_ "github.com/kaytu-io/terraform-package/external/logging"
+	_ "github.com/opengovern/terraform-package/external/logging"
 )
 
 func TestMain(m *testing.M) {

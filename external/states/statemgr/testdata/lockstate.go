@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
 )
 
 // Attempt to open and lock a terraform state file.

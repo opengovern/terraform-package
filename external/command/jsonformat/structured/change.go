@@ -7,11 +7,11 @@ import (
 	"encoding/json"
 	"reflect"
 
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/structured/attribute_path"
-	"github.com/kaytu-io/terraform-package/external/command/jsonplan"
-	"github.com/kaytu-io/terraform-package/external/command/jsonstate"
-	viewsjson "github.com/kaytu-io/terraform-package/external/command/views/json"
-	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/structured/attribute_path"
+	"github.com/opengovern/terraform-package/external/command/jsonplan"
+	"github.com/opengovern/terraform-package/external/command/jsonstate"
+	viewsjson "github.com/opengovern/terraform-package/external/command/views/json"
+	"github.com/opengovern/terraform-package/external/plans"
 )
 
 // Change contains the unmarshalled generic interface{} types that are output by

@@ -10,16 +10,16 @@ import (
 	"github.com/mitchellh/colorstring"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/kaytu-io/terraform-package/external/command/format"
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/differ"
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/structured"
-	"github.com/kaytu-io/terraform-package/external/command/jsonplan"
-	"github.com/kaytu-io/terraform-package/external/command/jsonprovider"
-	"github.com/kaytu-io/terraform-package/external/command/jsonstate"
-	viewsjson "github.com/kaytu-io/terraform-package/external/command/views/json"
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/terminal"
+	"github.com/opengovern/terraform-package/external/command/format"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/computed"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/differ"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/structured"
+	"github.com/opengovern/terraform-package/external/command/jsonplan"
+	"github.com/opengovern/terraform-package/external/command/jsonprovider"
+	"github.com/opengovern/terraform-package/external/command/jsonstate"
+	viewsjson "github.com/opengovern/terraform-package/external/command/views/json"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/terminal"
 )
 
 type JSONLogType string

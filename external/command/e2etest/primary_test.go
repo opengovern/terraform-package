@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/kaytu-io/terraform-package/external/e2e"
-	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/e2e"
+	"github.com/opengovern/terraform-package/external/plans"
 	"github.com/zclconf/go-cty/cty"
 )
 

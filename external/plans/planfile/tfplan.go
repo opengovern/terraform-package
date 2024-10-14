@@ -12,14 +12,14 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/checks"
-	"github.com/kaytu-io/terraform-package/external/lang/globalref"
-	"github.com/kaytu-io/terraform-package/external/lang/marks"
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/plans/internal/planproto"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/version"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/checks"
+	"github.com/opengovern/terraform-package/external/lang/globalref"
+	"github.com/opengovern/terraform-package/external/lang/marks"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/plans/internal/planproto"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/version"
 )
 
 const tfplanFormatVersion = 3

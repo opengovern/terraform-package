@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/external/dag"
+	"github.com/opengovern/terraform-package/external/dag"
 )
 
 func TestVertexTransformer_impl(t *testing.T) {

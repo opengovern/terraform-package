@@ -8,10 +8,10 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/collections"
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/structured"
-	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/collections"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/computed"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/structured"
+	"github.com/opengovern/terraform-package/external/plans"
 )
 
 type TransformPrimitiveJson func(before, after interface{}, ctype cty.Type, action plans.Action) computed.Diff

@@ -8,9 +8,9 @@ import (
 	"log"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
-	"github.com/kaytu-io/terraform-package/external/providers"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/providers"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -16,17 +16,17 @@ import (
 	"github.com/davecgh/go-spew/spew"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs"
-	"github.com/kaytu-io/terraform-package/external/configs/configload"
-	"github.com/kaytu-io/terraform-package/external/initwd"
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/providers"
-	"github.com/kaytu-io/terraform-package/external/provisioners"
-	"github.com/kaytu-io/terraform-package/external/registry"
-	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs"
+	"github.com/opengovern/terraform-package/external/configs/configload"
+	"github.com/opengovern/terraform-package/external/initwd"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/providers"
+	"github.com/opengovern/terraform-package/external/provisioners"
+	"github.com/opengovern/terraform-package/external/registry"
+	"github.com/opengovern/terraform-package/external/states"
 
-	_ "github.com/kaytu-io/terraform-package/external/logging"
+	_ "github.com/opengovern/terraform-package/external/logging"
 )
 
 // This is the directory where our test fixtures are.

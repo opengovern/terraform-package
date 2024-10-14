@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/command/arguments"
-	"github.com/kaytu-io/terraform-package/external/command/clistate"
-	"github.com/kaytu-io/terraform-package/external/command/views"
-	"github.com/kaytu-io/terraform-package/external/terraform"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/mitchellh/cli"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/command/arguments"
+	"github.com/opengovern/terraform-package/external/command/clistate"
+	"github.com/opengovern/terraform-package/external/command/views"
+	"github.com/opengovern/terraform-package/external/terraform"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // StateRmCommand is a Command implementation that shows a single resource.

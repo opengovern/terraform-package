@@ -12,10 +12,10 @@ import (
 	"bytes"
 	"crypto/md5"
 
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/states/remote"
-	"github.com/kaytu-io/terraform-package/external/states/statefile"
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/states/remote"
+	"github.com/opengovern/terraform-package/external/states/statefile"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
 )
 
 // NOTE: Before running this testcase, please create a OTS instance called 'tf-oss-remote'

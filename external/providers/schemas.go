@@ -4,8 +4,8 @@
 package providers
 
 import (
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
 )
 
 // Schemas is an overall container for all of the schemas for all configurable

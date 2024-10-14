@@ -12,19 +12,19 @@ import (
 	"github.com/mitchellh/colorstring"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/differ"
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/structured"
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/structured/attribute_path"
-	"github.com/kaytu-io/terraform-package/external/command/jsonplan"
-	"github.com/kaytu-io/terraform-package/external/command/jsonprovider"
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
-	"github.com/kaytu-io/terraform-package/external/lang/marks"
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/providers"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/terminal"
-	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/differ"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/structured"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/structured/attribute_path"
+	"github.com/opengovern/terraform-package/external/command/jsonplan"
+	"github.com/opengovern/terraform-package/external/command/jsonprovider"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/lang/marks"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/providers"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/terminal"
+	"github.com/opengovern/terraform-package/external/terraform"
 )
 
 func TestRenderHuman_EmptyPlan(t *testing.T) {
@@ -1651,7 +1651,7 @@ func TestResourceChange_JSON(t *testing.T) {
 
 func TestResourceChange_listObject(t *testing.T) {
 	testCases := map[string]testCase{
-		// https://github.com/kaytu-io/terraform-package/issues/30641
+		// https://github.com/opengovern/terraform-package/issues/30641
 		"updating non-identifying attribute": {
 			Action: plans.Update,
 			Mode:   addrs.ManagedResourceMode,

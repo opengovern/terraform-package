@@ -9,12 +9,12 @@ import (
 	"testing"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs"
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
-	"github.com/kaytu-io/terraform-package/external/lang/marks"
-	"github.com/kaytu-io/terraform-package/external/providers"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/lang/marks"
+	"github.com/opengovern/terraform-package/external/providers"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 
@@ -428,7 +428,7 @@ func TestNodeApplyableProvider_ConfigProvider_config_fn_err(t *testing.T) {
 	// ctx.ConfigureProviderFn will return an error if a value is not found.
 	//
 	// This is an unlikely but real situation that occurs:
-	// https://github.com/kaytu-io/terraform-package/issues/23087
+	// https://github.com/opengovern/terraform-package/issues/23087
 	ctx.ConfigureProviderFn = func(addr addrs.AbsProviderConfig, cfg cty.Value) (diags tfdiags.Diagnostics) {
 		if cfg.IsNull() {
 			diags = diags.Append(fmt.Errorf("no config provided"))

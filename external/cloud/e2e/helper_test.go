@@ -14,7 +14,7 @@ import (
 	tfe "github.com/hashicorp/go-tfe"
 	"github.com/hashicorp/go-uuid"
 	goversion "github.com/hashicorp/go-version"
-	tfversion "github.com/kaytu-io/terraform-package/version"
+	tfversion "github.com/opengovern/terraform-package/version"
 )
 
 const (

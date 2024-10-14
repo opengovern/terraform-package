@@ -15,9 +15,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
-	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/configs/hcl2shim"
 	"github.com/zclconf/go-cty/cty"
 
 	"github.com/mitchellh/copystructure"

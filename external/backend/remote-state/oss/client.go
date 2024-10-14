@@ -19,8 +19,8 @@ import (
 	uuid "github.com/hashicorp/go-uuid"
 	"github.com/pkg/errors"
 
-	"github.com/kaytu-io/terraform-package/external/states/remote"
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/states/remote"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
 )
 
 const (

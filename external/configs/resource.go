@@ -11,9 +11,9 @@ import (
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	hcljson "github.com/hashicorp/hcl/v2/json"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/lang"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/lang"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // Resource represents a "resource" or "data" block in a module or file.

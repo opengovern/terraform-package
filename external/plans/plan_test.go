@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-test/deep"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/addrs"
 )
 
 func TestProviderAddrs(t *testing.T) {

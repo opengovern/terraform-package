@@ -4,8 +4,8 @@
 package terraform
 
 import (
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
-	"github.com/kaytu-io/terraform-package/external/provisioners"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/provisioners"
 )
 
 // ResourceProvisioner is an interface that must be implemented by any

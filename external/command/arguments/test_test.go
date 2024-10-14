@@ -8,7 +8,7 @@ import (
 
 	"github.com/apparentlymart/go-shquot/shquot"
 	"github.com/google/go-cmp/cmp"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 func TestParseTest(t *testing.T) {

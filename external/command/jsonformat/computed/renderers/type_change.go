@@ -6,7 +6,7 @@ package renderers
 import (
 	"fmt"
 
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/computed"
 )
 
 var _ computed.DiffRenderer = (*typeChangeRenderer)(nil)

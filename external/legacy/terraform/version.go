@@ -4,7 +4,7 @@
 package terraform
 
 import (
-	"github.com/kaytu-io/terraform-package/version"
+	"github.com/opengovern/terraform-package/version"
 )
 
 // Deprecated: Providers should use schema.Provider.TerraformVersion instead

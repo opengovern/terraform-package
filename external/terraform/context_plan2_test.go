@@ -13,14 +13,14 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/google/go-cmp/cmp"
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/checks"
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
-	"github.com/kaytu-io/terraform-package/external/lang/marks"
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/providers"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/checks"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/lang/marks"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/providers"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 
@@ -2654,7 +2654,7 @@ func TestContext2Plan_moduleExpandOrphansResourceInstance(t *testing.T) {
 	// registrations in the instance expander that might lead to panics
 	// if we aren't careful.
 	//
-	// (For some history here, see https://github.com/kaytu-io/terraform-package/issues/30110 )
+	// (For some history here, see https://github.com/opengovern/terraform-package/issues/30110 )
 
 	addrNoKey := mustResourceInstanceAddr("module.child.test_object.a[0]")
 	addrZeroKey := mustResourceInstanceAddr("module.child[0].test_object.a[0]")

@@ -5,7 +5,7 @@ package blocktoattr
 
 import (
 	"github.com/hashicorp/hcl/v2"
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 )
 

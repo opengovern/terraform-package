@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/external/e2e"
-	"github.com/kaytu-io/terraform-package/external/getproviders"
+	"github.com/opengovern/terraform-package/external/e2e"
+	"github.com/opengovern/terraform-package/external/getproviders"
 )
 
 // TestProviderProtocols verifies that Terraform can execute provider plugins
@@ -33,10 +33,10 @@ func TestProviderProtocols(t *testing.T) {
 	// actually run it. Here will build the simple and simple6 (built with
 	// protocol v6) providers.
 	simple6Provider := filepath.Join(tf.WorkDir(), "terraform-provider-simple6")
-	simple6ProviderExe := e2e.GoBuild("github.com/kaytu-io/terraform-package/external/provider-simple-v6/main", simple6Provider)
+	simple6ProviderExe := e2e.GoBuild("github.com/opengovern/terraform-package/external/provider-simple-v6/main", simple6Provider)
 
 	simpleProvider := filepath.Join(tf.WorkDir(), "terraform-provider-simple")
-	simpleProviderExe := e2e.GoBuild("github.com/kaytu-io/terraform-package/external/provider-simple/main", simpleProvider)
+	simpleProviderExe := e2e.GoBuild("github.com/opengovern/terraform-package/external/provider-simple/main", simpleProvider)
 
 	// Move the provider binaries into a directory that we will point terraform
 	// to using the -plugin-dir cli flag.

@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kaytu-io/terraform-package/external/states/statefile"
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/states/statefile"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
 )
 
 // StatePullCommand is a Command implementation that shows a single resource.

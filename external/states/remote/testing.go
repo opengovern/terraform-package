@@ -7,8 +7,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/external/states/statefile"
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/states/statefile"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
 )
 
 // TestClient is a generic function to test any client.

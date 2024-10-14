@@ -7,7 +7,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/addrs"
 )
 
 // MemoizeSource is a Source that wraps another Source and remembers its

@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/kaytu-io/terraform-package/external/legacy/helper/hashcode"
+	"github.com/opengovern/terraform-package/external/legacy/helper/hashcode"
 )
 
 // HashString hashes strings. If you want a Set of strings, this is the

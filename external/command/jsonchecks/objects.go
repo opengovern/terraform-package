@@ -6,7 +6,7 @@ package jsonchecks
 import (
 	"fmt"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/addrs"
 )
 
 type staticObjectAddr map[string]interface{}

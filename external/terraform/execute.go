@@ -3,7 +3,7 @@
 
 package terraform
 
-import "github.com/kaytu-io/terraform-package/external/tfdiags"
+import "github.com/opengovern/terraform-package/external/tfdiags"
 
 // GraphNodeExecutable is the interface that graph nodes must implement to
 // enable execution.

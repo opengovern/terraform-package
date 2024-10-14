@@ -1,12 +1,12 @@
 package statefile
 
 import (
-	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/states"
 	"io"
 	"sort"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs/hcl2shim"
 
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 )

@@ -6,7 +6,7 @@ package statefile
 import (
 	"io"
 
-	tfversion "github.com/kaytu-io/terraform-package/version"
+	tfversion "github.com/opengovern/terraform-package/version"
 )
 
 // Write writes the given state to the given writer in the current state

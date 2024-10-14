@@ -4,9 +4,9 @@
 package terraform
 
 import (
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 
-	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/opengovern/terraform-package/external/configs"
 )
 
 // CheckCoreVersionRequirements visits each of the modules in the given

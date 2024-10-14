@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/legacy/helper/schema"
-	statespkg "github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/states/remote"
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/legacy/helper/schema"
+	statespkg "github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/states/remote"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
 )
 
 // we keep the states and locks in package-level variables, so that they can be

@@ -4,10 +4,10 @@
 package main
 
 import (
-	localexec "github.com/kaytu-io/terraform-package/external/builtin/provisioners/local-exec"
-	"github.com/kaytu-io/terraform-package/external/grpcwrap"
-	"github.com/kaytu-io/terraform-package/external/plugin"
-	"github.com/kaytu-io/terraform-package/external/tfplugin5"
+	localexec "github.com/opengovern/terraform-package/external/builtin/provisioners/local-exec"
+	"github.com/opengovern/terraform-package/external/grpcwrap"
+	"github.com/opengovern/terraform-package/external/plugin"
+	"github.com/opengovern/terraform-package/external/tfplugin5"
 )
 
 func main() {

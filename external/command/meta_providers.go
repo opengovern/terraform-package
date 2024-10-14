@@ -14,16 +14,16 @@ import (
 
 	plugin "github.com/hashicorp/go-plugin"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	terraformProvider "github.com/kaytu-io/terraform-package/external/builtin/providers/terraform"
-	"github.com/kaytu-io/terraform-package/external/getproviders"
-	"github.com/kaytu-io/terraform-package/external/logging"
-	"github.com/kaytu-io/terraform-package/external/moduletest"
-	tfplugin "github.com/kaytu-io/terraform-package/external/plugin"
-	tfplugin6 "github.com/kaytu-io/terraform-package/external/plugin6"
-	"github.com/kaytu-io/terraform-package/external/providercache"
-	"github.com/kaytu-io/terraform-package/external/providers"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/addrs"
+	terraformProvider "github.com/opengovern/terraform-package/external/builtin/providers/terraform"
+	"github.com/opengovern/terraform-package/external/getproviders"
+	"github.com/opengovern/terraform-package/external/logging"
+	"github.com/opengovern/terraform-package/external/moduletest"
+	tfplugin "github.com/opengovern/terraform-package/external/plugin"
+	tfplugin6 "github.com/opengovern/terraform-package/external/plugin6"
+	"github.com/opengovern/terraform-package/external/providercache"
+	"github.com/opengovern/terraform-package/external/providers"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // The TF_DISABLE_PLUGIN_TLS environment variable is intended only for use by

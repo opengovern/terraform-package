@@ -23,10 +23,10 @@ import (
 	svchost "github.com/hashicorp/terraform-svchost"
 	svcauth "github.com/hashicorp/terraform-svchost/auth"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/httpclient"
-	"github.com/kaytu-io/terraform-package/external/logging"
-	"github.com/kaytu-io/terraform-package/version"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/httpclient"
+	"github.com/opengovern/terraform-package/external/logging"
+	"github.com/opengovern/terraform-package/version"
 )
 
 const (

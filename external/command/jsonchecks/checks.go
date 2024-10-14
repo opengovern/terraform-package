@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/states"
 )
 
 // MarshalCheckStates is the main entry-point for this package, which takes

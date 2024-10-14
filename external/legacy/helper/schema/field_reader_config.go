@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/kaytu-io/terraform-package/external/legacy/terraform"
 	"github.com/mitchellh/mapstructure"
+	"github.com/opengovern/terraform-package/external/legacy/terraform"
 )
 
 // ConfigFieldReader reads fields out of an untyped map[string]string to the

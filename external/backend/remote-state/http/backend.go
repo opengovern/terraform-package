@@ -16,11 +16,11 @@ import (
 
 	"github.com/hashicorp/go-retryablehttp"
 
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/legacy/helper/schema"
-	"github.com/kaytu-io/terraform-package/external/logging"
-	"github.com/kaytu-io/terraform-package/external/states/remote"
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/legacy/helper/schema"
+	"github.com/opengovern/terraform-package/external/logging"
+	"github.com/opengovern/terraform-package/external/states/remote"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
 )
 
 func New() backend.Backend {

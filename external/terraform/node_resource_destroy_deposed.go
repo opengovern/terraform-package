@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/dag"
-	"github.com/kaytu-io/terraform-package/external/instances"
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/dag"
+	"github.com/opengovern/terraform-package/external/instances"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // ConcreteResourceInstanceDeposedNodeFunc is a callback type used to convert

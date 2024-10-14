@@ -8,7 +8,7 @@ import (
 	"math/big"
 
 	"github.com/apparentlymart/go-cidr/cidr"
-	"github.com/kaytu-io/terraform-package/external/ipaddr"
+	"github.com/opengovern/terraform-package/external/ipaddr"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/function"
 	"github.com/zclconf/go-cty/cty/gocty"

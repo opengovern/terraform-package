@@ -10,12 +10,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/kaytu-io/terraform-package/external/command/arguments"
-	"github.com/kaytu-io/terraform-package/external/command/format"
-	"github.com/kaytu-io/terraform-package/external/moduletest"
-	"github.com/kaytu-io/terraform-package/external/terminal"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/mitchellh/colorstring"
+	"github.com/opengovern/terraform-package/external/command/arguments"
+	"github.com/opengovern/terraform-package/external/command/format"
+	"github.com/opengovern/terraform-package/external/moduletest"
+	"github.com/opengovern/terraform-package/external/terminal"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // Test is the view interface for the "terraform test" command.

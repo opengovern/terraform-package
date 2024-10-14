@@ -13,10 +13,10 @@ import (
 	"github.com/apparentlymart/go-userdirs/userdirs"
 	"github.com/hashicorp/terraform-svchost/disco"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/command/cliconfig"
-	"github.com/kaytu-io/terraform-package/external/getproviders"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/command/cliconfig"
+	"github.com/opengovern/terraform-package/external/getproviders"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // providerSource constructs a provider source based on a combination of the

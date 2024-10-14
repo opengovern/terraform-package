@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kaytu-io/terraform-package/external/legacy/terraform"
+	"github.com/opengovern/terraform-package/external/legacy/terraform"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/gocty"
 )

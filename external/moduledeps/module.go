@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/kaytu-io/terraform-package/external/plugin/discovery"
+	"github.com/opengovern/terraform-package/external/plugin/discovery"
 )
 
 // Module represents the dependencies of a single module, as well being

@@ -6,8 +6,8 @@ package command
 import (
 	"fmt"
 
-	"github.com/kaytu-io/terraform-package/external/command/jsonfunction"
-	"github.com/kaytu-io/terraform-package/external/lang"
+	"github.com/opengovern/terraform-package/external/command/jsonfunction"
+	"github.com/opengovern/terraform-package/external/lang"
 	"github.com/zclconf/go-cty/cty/function"
 )
 

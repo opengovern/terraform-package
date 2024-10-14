@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/version"
+	"github.com/opengovern/terraform-package/version"
 )
 
 func TestUserAgentString_env(t *testing.T) {

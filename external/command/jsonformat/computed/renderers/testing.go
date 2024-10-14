@@ -9,8 +9,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/computed"
-	"github.com/kaytu-io/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/computed"
+	"github.com/opengovern/terraform-package/external/plans"
 )
 
 type ValidateDiffFunction func(t *testing.T, diff computed.Diff)

@@ -6,7 +6,7 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/kaytu-io/terraform-package/external/dag"
+	"github.com/opengovern/terraform-package/external/dag"
 )
 
 // VertexTransformer is a GraphTransformer that transforms vertices

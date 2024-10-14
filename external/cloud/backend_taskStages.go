@@ -10,7 +10,7 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 	tfe "github.com/hashicorp/go-tfe"
-	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/opengovern/terraform-package/external/terraform"
 )
 
 type taskStages map[tfe.Stage]*tfe.TaskStage

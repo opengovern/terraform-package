@@ -8,12 +8,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 
-	backendLocal "github.com/kaytu-io/terraform-package/external/backend/local"
+	backendLocal "github.com/opengovern/terraform-package/external/backend/local"
 )
 
 // StateMeta is the meta struct that should be embedded in state subcommands.

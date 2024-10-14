@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/kaytu-io/terraform-package/external/providers"
+	"github.com/opengovern/terraform-package/external/providers"
 )
 
 // Provider is an implementation of providers.Interface

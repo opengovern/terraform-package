@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/mitchellh/cli"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 	"github.com/posener/complete"
 )
 

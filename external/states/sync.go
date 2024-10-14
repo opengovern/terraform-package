@@ -7,8 +7,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/checks"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/checks"
 	"github.com/zclconf/go-cty/cty"
 )
 

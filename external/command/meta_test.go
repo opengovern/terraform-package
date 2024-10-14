@@ -14,10 +14,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/backend/local"
-	"github.com/kaytu-io/terraform-package/external/terraform"
 	"github.com/mitchellh/cli"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/backend/local"
+	"github.com/opengovern/terraform-package/external/terraform"
 )
 
 func TestMetaColorize(t *testing.T) {

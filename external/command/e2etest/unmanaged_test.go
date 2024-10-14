@@ -14,14 +14,14 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
-	"github.com/kaytu-io/terraform-package/external/e2e"
-	"github.com/kaytu-io/terraform-package/external/grpcwrap"
-	tfplugin5 "github.com/kaytu-io/terraform-package/external/plugin"
-	tfplugin "github.com/kaytu-io/terraform-package/external/plugin6"
-	simple5 "github.com/kaytu-io/terraform-package/external/provider-simple"
-	simple "github.com/kaytu-io/terraform-package/external/provider-simple-v6"
-	proto5 "github.com/kaytu-io/terraform-package/external/tfplugin5"
-	proto "github.com/kaytu-io/terraform-package/external/tfplugin6"
+	"github.com/opengovern/terraform-package/external/e2e"
+	"github.com/opengovern/terraform-package/external/grpcwrap"
+	tfplugin5 "github.com/opengovern/terraform-package/external/plugin"
+	tfplugin "github.com/opengovern/terraform-package/external/plugin6"
+	simple5 "github.com/opengovern/terraform-package/external/provider-simple"
+	simple "github.com/opengovern/terraform-package/external/provider-simple-v6"
+	proto5 "github.com/opengovern/terraform-package/external/tfplugin5"
+	proto "github.com/opengovern/terraform-package/external/tfplugin6"
 )
 
 // The tests in this file are for the "unmanaged provider workflow", which

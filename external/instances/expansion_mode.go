@@ -9,7 +9,7 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/addrs"
 )
 
 // expansion is an internal interface used to represent the different

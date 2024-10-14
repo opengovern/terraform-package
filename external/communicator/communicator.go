@@ -12,11 +12,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/kaytu-io/terraform-package/external/communicator/remote"
-	"github.com/kaytu-io/terraform-package/external/communicator/shared"
-	"github.com/kaytu-io/terraform-package/external/communicator/ssh"
-	"github.com/kaytu-io/terraform-package/external/communicator/winrm"
-	"github.com/kaytu-io/terraform-package/external/provisioners"
+	"github.com/opengovern/terraform-package/external/communicator/remote"
+	"github.com/opengovern/terraform-package/external/communicator/shared"
+	"github.com/opengovern/terraform-package/external/communicator/ssh"
+	"github.com/opengovern/terraform-package/external/communicator/winrm"
+	"github.com/opengovern/terraform-package/external/provisioners"
 	"github.com/zclconf/go-cty/cty"
 )
 

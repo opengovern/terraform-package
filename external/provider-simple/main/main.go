@@ -4,10 +4,10 @@
 package main
 
 import (
-	"github.com/kaytu-io/terraform-package/external/grpcwrap"
-	"github.com/kaytu-io/terraform-package/external/plugin"
-	simple "github.com/kaytu-io/terraform-package/external/provider-simple"
-	"github.com/kaytu-io/terraform-package/external/tfplugin5"
+	"github.com/opengovern/terraform-package/external/grpcwrap"
+	"github.com/opengovern/terraform-package/external/plugin"
+	simple "github.com/opengovern/terraform-package/external/provider-simple"
+	"github.com/opengovern/terraform-package/external/tfplugin5"
 )
 
 func main() {

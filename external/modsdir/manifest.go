@@ -16,7 +16,7 @@ import (
 
 	version "github.com/hashicorp/go-version"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/addrs"
 )
 
 // Record represents some metadata about an installed module, as part

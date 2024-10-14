@@ -9,7 +9,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
 )
 
 // testStateBackups returns the list of backups in order of creation

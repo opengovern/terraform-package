@@ -10,11 +10,11 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs"
-	"github.com/kaytu-io/terraform-package/external/dag"
-	"github.com/kaytu-io/terraform-package/external/instances"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs"
+	"github.com/opengovern/terraform-package/external/dag"
+	"github.com/opengovern/terraform-package/external/instances"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // ValidateMoves tests whether all of the given move statements comply with

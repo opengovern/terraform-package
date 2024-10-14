@@ -8,7 +8,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/addrs"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -4,11 +4,11 @@
 package views
 
 import (
-	"github.com/kaytu-io/terraform-package/external/command/arguments"
-	"github.com/kaytu-io/terraform-package/external/command/format"
-	"github.com/kaytu-io/terraform-package/external/terminal"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/mitchellh/colorstring"
+	"github.com/opengovern/terraform-package/external/command/arguments"
+	"github.com/opengovern/terraform-package/external/command/format"
+	"github.com/opengovern/terraform-package/external/terminal"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // View is the base layer for command views, encapsulating a set of I/O

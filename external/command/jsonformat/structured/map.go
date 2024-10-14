@@ -4,7 +4,7 @@
 package structured
 
 import (
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat/structured/attribute_path"
+	"github.com/opengovern/terraform-package/external/command/jsonformat/structured/attribute_path"
 )
 
 // ChangeMap is a Change that represents a Map or an Object type, and has

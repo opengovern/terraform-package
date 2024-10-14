@@ -10,9 +10,9 @@ import (
 
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl/v2"
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/depsfile"
-	"github.com/kaytu-io/terraform-package/external/getproviders"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/depsfile"
+	"github.com/opengovern/terraform-package/external/getproviders"
 )
 
 // A Config is a node in the tree of modules within a configuration.

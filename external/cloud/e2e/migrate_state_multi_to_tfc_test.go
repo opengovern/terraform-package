@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	tfe "github.com/hashicorp/go-tfe"
-	tfversion "github.com/kaytu-io/terraform-package/version"
+	tfversion "github.com/opengovern/terraform-package/version"
 )
 
 func Test_migrate_multi_to_tfc_cloud_name_strategy(t *testing.T) {

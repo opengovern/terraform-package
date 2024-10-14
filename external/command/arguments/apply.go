@@ -6,8 +6,8 @@ package arguments
 import (
 	"fmt"
 
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // Apply represents the command-line arguments for the apply command.

@@ -6,7 +6,7 @@ package terraform
 import (
 	"sync"
 
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
 )
 
 // MockResourceProvisioner implements ResourceProvisioner but mocks out all the

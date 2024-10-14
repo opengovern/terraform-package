@@ -6,7 +6,7 @@ package plugin
 import (
 	"net/rpc"
 
-	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/opengovern/terraform-package/external/terraform"
 )
 
 // UIOutput is an implementatin of terraform.UIOutput that communicates

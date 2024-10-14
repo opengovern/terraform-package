@@ -4,8 +4,8 @@
 package terraform
 
 import (
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // GraphWalker is an interface that can be implemented that when used

@@ -6,7 +6,7 @@ package statemgr
 import (
 	"fmt"
 
-	"github.com/kaytu-io/terraform-package/external/states/statefile"
+	"github.com/opengovern/terraform-package/external/states/statefile"
 )
 
 // Migrator is an optional interface implemented by state managers that

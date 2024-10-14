@@ -4,8 +4,8 @@
 package states
 
 import (
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/checks"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/checks"
 )
 
 // CheckResults represents a summary snapshot of the status of a set of checks

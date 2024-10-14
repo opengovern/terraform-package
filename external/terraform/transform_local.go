@@ -4,8 +4,8 @@
 package terraform
 
 import (
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs"
 )
 
 // LocalTransformer is a GraphTransformer that adds all the local values

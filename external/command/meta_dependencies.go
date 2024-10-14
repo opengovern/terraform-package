@@ -7,8 +7,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/kaytu-io/terraform-package/external/depsfile"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/depsfile"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // dependenclyLockFilename is the filename of the dependency lock file.

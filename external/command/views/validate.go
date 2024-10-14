@@ -7,10 +7,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/kaytu-io/terraform-package/external/command/arguments"
-	"github.com/kaytu-io/terraform-package/external/command/format"
-	viewsjson "github.com/kaytu-io/terraform-package/external/command/views/json"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/command/arguments"
+	"github.com/opengovern/terraform-package/external/command/format"
+	viewsjson "github.com/opengovern/terraform-package/external/command/views/json"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // The Validate is used for the validate command.

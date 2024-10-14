@@ -6,7 +6,7 @@ package schema
 import (
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/external/legacy/terraform"
+	"github.com/opengovern/terraform-package/external/legacy/terraform"
 )
 
 // TestResourceDataRaw creates a ResourceData from a raw configuration map.

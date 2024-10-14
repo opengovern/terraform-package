@@ -6,8 +6,8 @@ package cloud
 import (
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/external/configs"
-	legacy "github.com/kaytu-io/terraform-package/external/legacy/terraform"
+	"github.com/opengovern/terraform-package/external/configs"
+	legacy "github.com/opengovern/terraform-package/external/legacy/terraform"
 )
 
 func TestDetectConfigChangeType(t *testing.T) {

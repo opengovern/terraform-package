@@ -6,7 +6,7 @@ package terraform
 import (
 	"log"
 
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // NodeDestroyableDataResourceInstance represents a resource that is "destroyable":

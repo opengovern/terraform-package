@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/external/lang/marks"
+	"github.com/opengovern/terraform-package/external/lang/marks"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/version"
+	"github.com/opengovern/terraform-package/version"
 )
 
 func TestNew_userAgent(t *testing.T) {

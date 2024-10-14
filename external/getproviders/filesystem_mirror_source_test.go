@@ -11,7 +11,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 
 	svchost "github.com/hashicorp/terraform-svchost"
-	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/addrs"
 )
 
 func TestFilesystemMirrorSourceAllAvailablePackages(t *testing.T) {

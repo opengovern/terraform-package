@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/kaytu-io/terraform-package/external/getproviders"
+	"github.com/opengovern/terraform-package/external/getproviders"
 )
 
 // InstallPackage takes a metadata object describing a package available for

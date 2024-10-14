@@ -6,9 +6,9 @@ package terraform
 import (
 	"log"
 
-	"github.com/kaytu-io/terraform-package/external/configs"
-	"github.com/kaytu-io/terraform-package/external/dag"
-	"github.com/kaytu-io/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/configs"
+	"github.com/opengovern/terraform-package/external/dag"
+	"github.com/opengovern/terraform-package/external/states"
 )
 
 // OrphanResourceInstanceTransformer is a GraphTransformer that adds orphaned

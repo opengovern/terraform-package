@@ -5,10 +5,10 @@ package lang
 
 import (
 	"github.com/hashicorp/hcl/v2"
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
-	"github.com/kaytu-io/terraform-package/external/lang/blocktoattr"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/lang/blocktoattr"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // References finds all of the references in the given set of traversals,

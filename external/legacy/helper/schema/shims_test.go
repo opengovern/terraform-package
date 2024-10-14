@@ -14,12 +14,12 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
-	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
-	"github.com/kaytu-io/terraform-package/external/legacy/helper/hashcode"
-	"github.com/kaytu-io/terraform-package/external/legacy/terraform"
-	"github.com/kaytu-io/terraform-package/external/providers"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/configs/hcl2shim"
+	"github.com/opengovern/terraform-package/external/legacy/helper/hashcode"
+	"github.com/opengovern/terraform-package/external/legacy/terraform"
+	"github.com/opengovern/terraform-package/external/providers"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 
@@ -2235,7 +2235,7 @@ func TestShimSchemaMap_Diff(t *testing.T) {
 		},
 
 		{
-			Name: "https://github.com/kaytu-io/terraform-package/issues/824",
+			Name: "https://github.com/opengovern/terraform-package/issues/824",
 			Schema: map[string]*Schema{
 				"block_device": &Schema{
 					Type:     TypeSet,

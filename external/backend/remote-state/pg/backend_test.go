@@ -4,7 +4,7 @@
 package pg
 
 // Create the test database: createdb terraform_backend_pg_test
-// TF_ACC=1 GO111MODULE=on go test -v -mod=vendor -timeout=2m -parallel=4 github.com/kaytu-io/terraform-package/backend/remote-state/pg
+// TF_ACC=1 GO111MODULE=on go test -v -mod=vendor -timeout=2m -parallel=4 github.com/opengovern/terraform-package/backend/remote-state/pg
 
 import (
 	"database/sql"
@@ -15,11 +15,11 @@ import (
 	"testing"
 
 	"github.com/hashicorp/hcl/v2/hcldec"
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/states/remote"
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
 	"github.com/lib/pq"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/states/remote"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 // Function to skip a test unless in ACCeptance test mode.

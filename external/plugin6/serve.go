@@ -5,7 +5,7 @@ package plugin6
 
 import (
 	"github.com/hashicorp/go-plugin"
-	proto "github.com/kaytu-io/terraform-package/external/tfplugin6"
+	proto "github.com/opengovern/terraform-package/external/tfplugin6"
 )
 
 const (

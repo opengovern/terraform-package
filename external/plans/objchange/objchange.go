@@ -9,7 +9,7 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
 )
 
 // ProposedNew constructs a proposed new object value by combining the

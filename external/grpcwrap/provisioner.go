@@ -9,11 +9,11 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/kaytu-io/terraform-package/external/communicator/shared"
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
-	"github.com/kaytu-io/terraform-package/external/plugin/convert"
-	"github.com/kaytu-io/terraform-package/external/provisioners"
-	"github.com/kaytu-io/terraform-package/external/tfplugin5"
+	"github.com/opengovern/terraform-package/external/communicator/shared"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/plugin/convert"
+	"github.com/opengovern/terraform-package/external/provisioners"
+	"github.com/opengovern/terraform-package/external/tfplugin5"
 )
 
 // New wraps a provisioners.Interface to implement a grpc ProviderServer.

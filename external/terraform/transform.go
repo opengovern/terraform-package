@@ -6,8 +6,8 @@ package terraform
 import (
 	"log"
 
-	"github.com/kaytu-io/terraform-package/external/dag"
-	"github.com/kaytu-io/terraform-package/external/logging"
+	"github.com/opengovern/terraform-package/external/dag"
+	"github.com/opengovern/terraform-package/external/logging"
 )
 
 // GraphTransformer is the interface that transformers implement. This

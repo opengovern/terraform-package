@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/backend/remote-state/inmem"
-	"github.com/kaytu-io/terraform-package/external/states"
 	"github.com/mitchellh/cli"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/backend/remote-state/inmem"
+	"github.com/opengovern/terraform-package/external/states"
 )
 
 func TestStatePush_empty(t *testing.T) {

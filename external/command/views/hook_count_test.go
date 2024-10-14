@@ -9,12 +9,12 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/terraform"
 
-	legacy "github.com/kaytu-io/terraform-package/external/legacy/terraform"
+	legacy "github.com/opengovern/terraform-package/external/legacy/terraform"
 )
 
 func TestCountHook_impl(t *testing.T) {

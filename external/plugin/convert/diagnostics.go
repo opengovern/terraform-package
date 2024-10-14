@@ -4,8 +4,8 @@
 package convert
 
 import (
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
-	proto "github.com/kaytu-io/terraform-package/external/tfplugin5"
+	"github.com/opengovern/terraform-package/external/tfdiags"
+	proto "github.com/opengovern/terraform-package/external/tfplugin5"
 	"github.com/zclconf/go-cty/cty"
 )
 

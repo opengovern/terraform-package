@@ -4,8 +4,8 @@
 package command
 
 import (
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/cloud"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/cloud"
 )
 
 const failedToLoadSchemasMessage = `

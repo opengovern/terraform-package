@@ -8,10 +8,10 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/experiments"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/experiments"
 
-	tfversion "github.com/kaytu-io/terraform-package/version"
+	tfversion "github.com/opengovern/terraform-package/version"
 )
 
 // Module is a container for a set of configuration constructs that are
@@ -330,7 +330,7 @@ func (m *Module) appendFile(file *File) hcl.Diagnostics {
 		} else {
 			// an invalid resource name (for e.g. "null resource" instead of
 			// "null_resource") can cause a panic down the line in addrs:
-			// https://github.com/kaytu-io/terraform-package/issues/25560
+			// https://github.com/opengovern/terraform-package/issues/25560
 			implied, err := addrs.ParseProviderPart(r.Addr().ImpliedProvider())
 			if err == nil {
 				r.Provider = m.ImpliedProviderForUnqualifiedType(implied)
@@ -392,7 +392,7 @@ func (m *Module) appendFile(file *File) hcl.Diagnostics {
 		} else {
 			// an invalid data source name (for e.g. "null resource" instead of
 			// "null_resource") can cause a panic down the line in addrs:
-			// https://github.com/kaytu-io/terraform-package/issues/25560
+			// https://github.com/opengovern/terraform-package/issues/25560
 			implied, err := addrs.ParseProviderPart(r.Addr().ImpliedProvider())
 			if err == nil {
 				r.Provider = m.ImpliedProviderForUnqualifiedType(implied)

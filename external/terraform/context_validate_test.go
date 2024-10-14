@@ -11,12 +11,12 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
-	"github.com/kaytu-io/terraform-package/external/providers"
-	"github.com/kaytu-io/terraform-package/external/provisioners"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/providers"
+	"github.com/opengovern/terraform-package/external/provisioners"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 func TestContext2Validate_badCount(t *testing.T) {
@@ -1049,7 +1049,7 @@ func TestContext2Validate_varRefUnknown(t *testing.T) {
 }
 
 // Module variables weren't being interpolated during Validate phase.
-// related to https://github.com/kaytu-io/terraform-package/issues/5322
+// related to https://github.com/opengovern/terraform-package/issues/5322
 func TestContext2Validate_interpolateVar(t *testing.T) {
 	input := new(MockUIInput)
 

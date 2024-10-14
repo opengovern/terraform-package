@@ -13,13 +13,13 @@ import (
 	plugin "github.com/hashicorp/go-plugin"
 	"github.com/kardianos/osext"
 
-	fileprovisioner "github.com/kaytu-io/terraform-package/external/builtin/provisioners/file"
-	localexec "github.com/kaytu-io/terraform-package/external/builtin/provisioners/local-exec"
-	remoteexec "github.com/kaytu-io/terraform-package/external/builtin/provisioners/remote-exec"
-	"github.com/kaytu-io/terraform-package/external/logging"
-	tfplugin "github.com/kaytu-io/terraform-package/external/plugin"
-	"github.com/kaytu-io/terraform-package/external/plugin/discovery"
-	"github.com/kaytu-io/terraform-package/external/provisioners"
+	fileprovisioner "github.com/opengovern/terraform-package/external/builtin/provisioners/file"
+	localexec "github.com/opengovern/terraform-package/external/builtin/provisioners/local-exec"
+	remoteexec "github.com/opengovern/terraform-package/external/builtin/provisioners/remote-exec"
+	"github.com/opengovern/terraform-package/external/logging"
+	tfplugin "github.com/opengovern/terraform-package/external/plugin"
+	"github.com/opengovern/terraform-package/external/plugin/discovery"
+	"github.com/opengovern/terraform-package/external/provisioners"
 )
 
 // NOTE WELL: The logic in this file is primarily about plugin types OTHER THAN

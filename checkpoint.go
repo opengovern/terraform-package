@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 
 	"github.com/hashicorp/go-checkpoint"
-	"github.com/kaytu-io/terraform-package/external/command"
-	"github.com/kaytu-io/terraform-package/external/command/cliconfig"
+	"github.com/opengovern/terraform-package/external/command"
+	"github.com/opengovern/terraform-package/external/command/cliconfig"
 )
 
 func init() {

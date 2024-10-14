@@ -13,10 +13,10 @@ import (
 
 	tfe "github.com/hashicorp/go-tfe"
 
-	"github.com/kaytu-io/terraform-package/external/command/jsonstate"
-	"github.com/kaytu-io/terraform-package/external/states/remote"
-	"github.com/kaytu-io/terraform-package/external/states/statefile"
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/command/jsonstate"
+	"github.com/opengovern/terraform-package/external/states/remote"
+	"github.com/opengovern/terraform-package/external/states/statefile"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
 )
 
 type remoteClient struct {

@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	_ "github.com/kaytu-io/terraform-package/external/logging"
+	_ "github.com/opengovern/terraform-package/external/logging"
 )
 
 func TestNewLockInfo(t *testing.T) {

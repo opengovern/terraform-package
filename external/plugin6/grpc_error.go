@@ -8,7 +8,7 @@ import (
 	"path"
 	"runtime"
 
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

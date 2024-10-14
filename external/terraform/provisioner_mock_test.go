@@ -4,7 +4,7 @@
 package terraform
 
 import (
-	"github.com/kaytu-io/terraform-package/external/provisioners"
+	"github.com/opengovern/terraform-package/external/provisioners"
 )
 
 // simpleMockProvisioner returns a MockProvisioner that is pre-configured

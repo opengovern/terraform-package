@@ -3,7 +3,7 @@
 
 package main
 
-import "github.com/kaytu-io/terraform-package/external/command/workdir"
+import "github.com/opengovern/terraform-package/external/command/workdir"
 
 func WorkingDir(originalDir string, overrideDataDir string) *workdir.Dir {
 	ret := workdir.NewDir(".") // caller should already have used os.Chdir in "-chdir=..." mode

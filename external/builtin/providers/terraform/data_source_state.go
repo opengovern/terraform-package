@@ -7,14 +7,14 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/backend/remote"
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
-	"github.com/kaytu-io/terraform-package/external/providers"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/backend/remote"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/providers"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 
-	backendInit "github.com/kaytu-io/terraform-package/external/backend/init"
+	backendInit "github.com/opengovern/terraform-package/external/backend/init"
 )
 
 func dataSourceRemoteStateGetSchema() providers.Schema {

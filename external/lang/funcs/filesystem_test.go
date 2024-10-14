@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/external/lang/marks"
 	homedir "github.com/mitchellh/go-homedir"
+	"github.com/opengovern/terraform-package/external/lang/marks"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/function"
 	"github.com/zclconf/go-cty/cty/function/stdlib"

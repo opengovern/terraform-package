@@ -14,7 +14,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/kaytu-io/terraform-package/external/e2e"
+	"github.com/opengovern/terraform-package/external/e2e"
 )
 
 func TestInitProviders(t *testing.T) {

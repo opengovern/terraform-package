@@ -4,7 +4,7 @@
 package terraform
 
 import (
-	backendInit "github.com/kaytu-io/terraform-package/external/backend/init"
+	backendInit "github.com/opengovern/terraform-package/external/backend/init"
 )
 
 func init() {

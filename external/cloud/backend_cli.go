@@ -4,8 +4,8 @@
 package cloud
 
 import (
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/command/jsonformat"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/command/jsonformat"
 )
 
 // CLIInit implements backend.CLI

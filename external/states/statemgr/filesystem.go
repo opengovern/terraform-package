@@ -17,9 +17,9 @@ import (
 
 	multierror "github.com/hashicorp/go-multierror"
 
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/states/statefile"
-	"github.com/kaytu-io/terraform-package/external/terraform"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/states/statefile"
+	"github.com/opengovern/terraform-package/external/terraform"
 )
 
 // Filesystem is a full state manager that uses a file in the local filesystem

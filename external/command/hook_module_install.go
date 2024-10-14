@@ -7,8 +7,8 @@ import (
 	"fmt"
 
 	version "github.com/hashicorp/go-version"
-	"github.com/kaytu-io/terraform-package/external/initwd"
 	"github.com/mitchellh/cli"
+	"github.com/opengovern/terraform-package/external/initwd"
 )
 
 type uiModuleInstallHooks struct {

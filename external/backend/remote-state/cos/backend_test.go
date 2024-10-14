@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/states/remote"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/states/remote"
 )
 
 const (

@@ -12,15 +12,15 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs/configschema"
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/providers"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
-	"github.com/kaytu-io/terraform-package/external/terraform"
-	"github.com/kaytu-io/terraform-package/version"
 	"github.com/mitchellh/cli"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs/configschema"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/providers"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/terraform"
+	"github.com/opengovern/terraform-package/version"
 	"github.com/zclconf/go-cty/cty"
 )
 
@@ -126,7 +126,7 @@ func TestShow_argsWithState(t *testing.T) {
 	}
 }
 
-// https://github.com/kaytu-io/terraform-package/issues/21462
+// https://github.com/opengovern/terraform-package/issues/21462
 func TestShow_argsWithStateAliasedProvider(t *testing.T) {
 	// Create the default state with aliased resource
 	testState := states.BuildState(func(s *states.SyncState) {

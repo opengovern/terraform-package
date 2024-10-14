@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/external/e2e"
+	"github.com/opengovern/terraform-package/external/e2e"
 )
 
 func TestTerraformProviderRead(t *testing.T) {

@@ -9,8 +9,8 @@ package command
 import (
 	"fmt"
 
-	"github.com/kaytu-io/terraform-package/external/repl"
 	"github.com/mitchellh/cli"
+	"github.com/opengovern/terraform-package/external/repl"
 )
 
 func (c *ConsoleCommand) modeInteractive(session *repl.Session, ui cli.Ui) int {

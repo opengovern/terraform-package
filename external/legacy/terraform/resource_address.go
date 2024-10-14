@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/configs"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/configs"
 )
 
 // ResourceAddress is a way of identifying an individual resource (or,

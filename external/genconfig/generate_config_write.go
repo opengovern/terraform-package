@@ -5,8 +5,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/kaytu-io/terraform-package/external/plans"
-	"github.com/kaytu-io/terraform-package/external/tfdiags"
+	"github.com/opengovern/terraform-package/external/plans"
+	"github.com/opengovern/terraform-package/external/tfdiags"
 )
 
 func ValidateTargetFile(out string) tfdiags.Diagnostics {

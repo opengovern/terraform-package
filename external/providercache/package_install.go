@@ -13,9 +13,9 @@ import (
 
 	getter "github.com/hashicorp/go-getter"
 
-	"github.com/kaytu-io/terraform-package/external/copy"
-	"github.com/kaytu-io/terraform-package/external/getproviders"
-	"github.com/kaytu-io/terraform-package/external/httpclient"
+	"github.com/opengovern/terraform-package/external/copy"
+	"github.com/opengovern/terraform-package/external/getproviders"
+	"github.com/opengovern/terraform-package/external/httpclient"
 )
 
 // We borrow the "unpack a zip file into a target directory" logic from

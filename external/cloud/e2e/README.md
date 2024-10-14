@@ -2,7 +2,7 @@
 
 To run them, use:
 ```
-TFE_TOKEN=<token> TFE_HOSTNAME=<hostname> TF_ACC=1 go test  ./external/cloud/e2e/... -ldflags "-X \"github.com/kaytu-io/terraform-package/version.Prerelease=<PRE-RELEASE>\""
+TFE_TOKEN=<token> TFE_HOSTNAME=<hostname> TF_ACC=1 go test  ./external/cloud/e2e/... -ldflags "-X \"github.com/opengovern/terraform-package/version.Prerelease=<PRE-RELEASE>\""
 ```
 
 Required flags

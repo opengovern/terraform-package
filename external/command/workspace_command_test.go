@@ -10,15 +10,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/backend"
-	"github.com/kaytu-io/terraform-package/external/backend/local"
-	"github.com/kaytu-io/terraform-package/external/backend/remote-state/inmem"
-	"github.com/kaytu-io/terraform-package/external/states"
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
 	"github.com/mitchellh/cli"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/backend"
+	"github.com/opengovern/terraform-package/external/backend/local"
+	"github.com/opengovern/terraform-package/external/backend/remote-state/inmem"
+	"github.com/opengovern/terraform-package/external/states"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
 
-	legacy "github.com/kaytu-io/terraform-package/external/legacy/terraform"
+	legacy "github.com/opengovern/terraform-package/external/legacy/terraform"
 )
 
 func TestWorkspace_createAndChange(t *testing.T) {

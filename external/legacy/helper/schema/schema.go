@@ -25,10 +25,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/kaytu-io/terraform-package/external/configs/hcl2shim"
-	"github.com/kaytu-io/terraform-package/external/legacy/terraform"
 	"github.com/mitchellh/copystructure"
 	"github.com/mitchellh/mapstructure"
+	"github.com/opengovern/terraform-package/external/configs/hcl2shim"
+	"github.com/opengovern/terraform-package/external/legacy/terraform"
 )
 
 // Name of ENV variable which (if not empty) prefers panic over error

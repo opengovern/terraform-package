@@ -4,7 +4,7 @@
 package remote
 
 import (
-	"github.com/kaytu-io/terraform-package/external/states/statemgr"
+	"github.com/opengovern/terraform-package/external/states/statemgr"
 )
 
 // Client is the interface that must be implemented for a remote state

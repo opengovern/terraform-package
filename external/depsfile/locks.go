@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
-	"github.com/kaytu-io/terraform-package/external/getproviders"
+	"github.com/opengovern/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/getproviders"
 )
 
 // Locks is the top-level type representing the information retained in a

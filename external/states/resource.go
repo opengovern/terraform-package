@@ -8,7 +8,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/addrs"
 )
 
 // Resource represents the state of a resource.

@@ -6,7 +6,7 @@ package checks
 import (
 	"fmt"
 
-	"github.com/kaytu-io/terraform-package/external/addrs"
+	"github.com/opengovern/terraform-package/external/addrs"
 )
 
 // These are the "Report"-prefixed methods of Checks used by Terraform Core
